@@ -1,0 +1,3 @@
+[2024-29-10 14:16:23] - INFO: ******* path: /home/tongping/mingcan/github/Pruning/TreeMTL/outputs/resnet34_0208/baseline_minus20_decay0.0005/baseline_minus20_decay0.0005best_segment_semantic_normal_depth_zbuffer.model
+[2024-29-10 14:20:00] - INFO: ******* path: /home/tongping/mingcan/github/Pruning/Global_pruning/outputs/resnet34_1110/finetune//0.9/best_segment_semantic_normal_depth_zbuffer.model
+[2024-29-10 14:24:08] - INFO: ******* path: /home/tongping/mingcan/github/Pruning/TreeMTL/outputs/resnet34_1110/finetune/0.9/best_segment_semantic_normal_depth_zbuffer.model
