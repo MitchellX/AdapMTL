@@ -1,0 +1,70 @@
+[2023-09-03 17:10:12] - INFO: ******* path: outputs/unity/task_sensitivity/finetune/normal//0.9/best_segment_semantic_normal_depth_zbuffer.model
+[2023-09-03 17:10:13] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-09-03 17:10:13] - INFO: backbone sparsity: 0.9999823570251465
+[2023-09-03 17:10:13] - INFO: segment_semantic head sparsity: 0.9999753832817078
+[2023-09-03 17:10:13] - INFO: normal head sparsity: 0.09998682886362076
+[2023-09-03 17:10:13] - INFO: depth_zbuffer head sparsity: 0.999983549118042
+[2023-09-03 17:10:57] - INFO: [Iter 10399 Task segm] Val Loss: 1.5669
+[2023-09-03 17:10:57] - INFO: {'mIoU': 0.2522, 'Pixel Acc': 0.5765}
+[2023-09-03 17:10:58] - INFO: [Iter 10399 Task norm] Val Loss: 0.0613
+[2023-09-03 17:10:58] - INFO: {'Angle Mean': 16.984, 'Angle Median': 15.0416, 'Angle 11.25': 36.1363, 'Angle 22.5': 73.1075, 'Angle 30': 86.739}
+[2023-09-03 17:10:59] - INFO: [Iter 10399 Task dept] Val Loss: 0.5550
+[2023-09-03 17:10:59] - INFO: {'abs_err': 0.5585, 'rel_err': 0.2377, 'sigma_1.25': 63.5318, 'sigma_1.25^2': 88.6301, 'sigma_1.25^3': 96.8642}
+[2023-09-03 17:10:59] - INFO: ======================================================================
+[2023-09-03 17:10:59] - INFO: test score: 1.1602
+[2023-09-03 17:11:11] - INFO: ******* path: outputs/unity/task_sensitivity/finetune/normal//0.93/best_segment_semantic_normal_depth_zbuffer.model
+[2023-09-03 17:11:12] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-09-03 17:11:12] - INFO: backbone sparsity: 0.9999812245368958
+[2023-09-03 17:11:12] - INFO: segment_semantic head sparsity: 0.9999757409095764
+[2023-09-03 17:11:12] - INFO: normal head sparsity: 0.06999453157186508
+[2023-09-03 17:11:12] - INFO: depth_zbuffer head sparsity: 0.9999818205833435
+[2023-09-03 17:11:51] - INFO: [Iter 10599 Task segm] Val Loss: 1.6249
+[2023-09-03 17:11:51] - INFO: {'mIoU': 0.2508, 'Pixel Acc': 0.5651}
+[2023-09-03 17:11:52] - INFO: [Iter 10599 Task norm] Val Loss: 0.0592
+[2023-09-03 17:11:52] - INFO: {'Angle Mean': 16.7558, 'Angle Median': 14.7946, 'Angle 11.25': 35.3947, 'Angle 22.5': 75.7008, 'Angle 30': 87.5657}
+[2023-09-03 17:11:53] - INFO: [Iter 10599 Task dept] Val Loss: 0.5709
+[2023-09-03 17:11:53] - INFO: {'abs_err': 0.5751, 'rel_err': 0.2449, 'sigma_1.25': 62.1239, 'sigma_1.25^2': 88.3242, 'sigma_1.25^3': 96.7759}
+[2023-09-03 17:11:53] - INFO: ======================================================================
+[2023-09-03 17:11:53] - INFO: test score: 1.143
+[2023-09-03 17:12:05] - INFO: ******* path: outputs/unity/task_sensitivity/finetune/normal//0.95/best_segment_semantic_normal_depth_zbuffer.model
+[2023-09-03 17:12:06] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-09-03 17:12:06] - INFO: backbone sparsity: 0.9999834895133972
+[2023-09-03 17:12:06] - INFO: segment_semantic head sparsity: 0.9999797344207764
+[2023-09-03 17:12:06] - INFO: normal head sparsity: 0.04999740049242973
+[2023-09-03 17:12:06] - INFO: depth_zbuffer head sparsity: 0.9999825954437256
+[2023-09-03 17:12:41] - INFO: [Iter 6799 Task segm] Val Loss: 1.9385
+[2023-09-03 17:12:41] - INFO: {'mIoU': 0.1963, 'Pixel Acc': 0.4984}
+[2023-09-03 17:12:42] - INFO: [Iter 6799 Task norm] Val Loss: 0.0620
+[2023-09-03 17:12:42] - INFO: {'Angle Mean': 16.9389, 'Angle Median': 14.4225, 'Angle 11.25': 36.634, 'Angle 22.5': 75.6322, 'Angle 30': 86.5662}
+[2023-09-03 17:12:43] - INFO: [Iter 6799 Task dept] Val Loss: 0.5941
+[2023-09-03 17:12:43] - INFO: {'abs_err': 0.5924, 'rel_err': 0.2368, 'sigma_1.25': 61.4111, 'sigma_1.25^2': 87.2915, 'sigma_1.25^3': 96.1993}
+[2023-09-03 17:12:43] - INFO: ======================================================================
+[2023-09-03 17:12:43] - INFO: test score: 1.097
+[2023-09-03 17:12:54] - INFO: ******* path: outputs/unity/task_sensitivity/finetune/normal//0.97/best_segment_semantic_normal_depth_zbuffer.model
+[2023-09-03 17:12:55] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-09-03 17:12:55] - INFO: backbone sparsity: 0.9999819397926331
+[2023-09-03 17:12:55] - INFO: segment_semantic head sparsity: 0.99997878074646
+[2023-09-03 17:12:55] - INFO: normal head sparsity: 0.0299991425126791
+[2023-09-03 17:12:55] - INFO: depth_zbuffer head sparsity: 0.9999837279319763
+[2023-09-03 17:13:28] - INFO: [Iter 7599 Task segm] Val Loss: 1.6385
+[2023-09-03 17:13:28] - INFO: {'mIoU': 0.2316, 'Pixel Acc': 0.5456}
+[2023-09-03 17:13:29] - INFO: [Iter 7599 Task norm] Val Loss: 0.0612
+[2023-09-03 17:13:29] - INFO: {'Angle Mean': 17.0302, 'Angle Median': 14.8476, 'Angle 11.25': 34.8751, 'Angle 22.5': 75.1714, 'Angle 30': 86.7045}
+[2023-09-03 17:13:30] - INFO: [Iter 7599 Task dept] Val Loss: 0.5785
+[2023-09-03 17:13:30] - INFO: {'abs_err': 0.5781, 'rel_err': 0.2269, 'sigma_1.25': 61.9716, 'sigma_1.25^2': 88.0832, 'sigma_1.25^3': 96.6593}
+[2023-09-03 17:13:30] - INFO: ======================================================================
+[2023-09-03 17:13:30] - INFO: test score: 1.1301
+[2023-09-03 17:13:41] - INFO: ******* path: outputs/unity/task_sensitivity/finetune/normal//0.99/best_segment_semantic_normal_depth_zbuffer.model
+[2023-09-03 17:13:42] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-09-03 17:13:42] - INFO: backbone sparsity: 0.9999815821647644
+[2023-09-03 17:13:42] - INFO: segment_semantic head sparsity: 0.9999800324440002
+[2023-09-03 17:13:42] - INFO: normal head sparsity: 0.00999971479177475
+[2023-09-03 17:13:42] - INFO: depth_zbuffer head sparsity: 0.9999830722808838
+[2023-09-03 17:14:15] - INFO: [Iter 6799 Task segm] Val Loss: 1.6160
+[2023-09-03 17:14:15] - INFO: {'mIoU': 0.2394, 'Pixel Acc': 0.5572}
+[2023-09-03 17:14:15] - INFO: [Iter 6799 Task norm] Val Loss: 0.0604
+[2023-09-03 17:14:15] - INFO: {'Angle Mean': 16.8238, 'Angle Median': 14.4604, 'Angle 11.25': 36.2598, 'Angle 22.5': 75.9224, 'Angle 30': 86.8957}
+[2023-09-03 17:14:18] - INFO: [Iter 6799 Task dept] Val Loss: 0.5800
+[2023-09-03 17:14:18] - INFO: {'abs_err': 0.5753, 'rel_err': 0.2165, 'sigma_1.25': 62.3847, 'sigma_1.25^2': 88.6525, 'sigma_1.25^3': 97.0252}
+[2023-09-03 17:14:18] - INFO: ======================================================================
+[2023-09-03 17:14:18] - INFO: test score: 1.1923

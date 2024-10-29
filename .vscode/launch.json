@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "--dataset", "taskonomy",
+                "--path", "outputs/unity/taskonomy_0422/minus_15_r_0.9/segment_semantic_normal_depth_zbuffer_keypoints2d_edge_texture.model",
+                "--architecture", "resnet34"
+                ]
+
+        }
+    ]
+}

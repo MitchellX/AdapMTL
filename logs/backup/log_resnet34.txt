@@ -1,0 +1,350 @@
+python test.py --path outputs/resnet34_1028/finetune/0.1/best_segment_semantic_normal_depth_zbuffer.model --architecture resnet34
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+[2022-09-11 16:57:16] - INFO: ******* path: outputs/resnet34_1028/finetune/0.1/best_segment_semantic_normal_depth_zbuffer.model
+[2022-09-11 16:57:17] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+total_conv:  21267648
+conv_nonzero:  tensor(19138360., device='cuda:0')
+======================================================================
+total_conv:  23232512
+conv_nonzero:  tensor(20907660., device='cuda:0')
+======================================================================
+total_conv:  23080960
+conv_nonzero:  tensor(20760732., device='cuda:0')
+======================================================================
+total_conv:  23072768
+conv_nonzero:  tensor(20764784., device='cuda:0')
+======================================================================
+[2022-09-11 16:57:52] - INFO: [Iter 19599 Task segm] Val Loss: 1.7124
+[2022-09-11 16:57:52] - INFO: {'mIoU': 0.2592, 'Pixel Acc': 0.5824}
+[2022-09-11 16:57:54] - INFO: [Iter 19599 Task norm] Val Loss: 0.0628
+[2022-09-11 16:57:54] - INFO: {'Angle Mean': 17.1373, 'Angle Median': 15.0385, 'Angle 11.25': 35.8377, 'Angle 22.5': 72.5415, 'Angle 30': 85.681}
+[2022-09-11 16:57:55] - INFO: [Iter 19599 Task dept] Val Loss: 0.5504
+[2022-09-11 16:57:55] - INFO: {'abs_err': 0.5501, 'rel_err': 0.2097, 'sigma_1.25': 64.5024, 'sigma_1.25^2': 90.1443, 'sigma_1.25^3': 97.5938}
+[2022-09-11 16:57:55] - INFO: ======================================================================
+[2022-09-11 16:57:55] - INFO: test score: 1.2124
+python test.py --path outputs/resnet34_1028/finetune/0.2/best_segment_semantic_normal_depth_zbuffer.model --architecture resnet34
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+[2022-09-11 16:58:05] - INFO: ******* path: outputs/resnet34_1028/finetune/0.2/best_segment_semantic_normal_depth_zbuffer.model
+[2022-09-11 16:58:10] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+total_conv:  21267648
+conv_nonzero:  tensor(17009768., device='cuda:0')
+======================================================================
+total_conv:  23232512
+conv_nonzero:  tensor(18580628., device='cuda:0')
+======================================================================
+total_conv:  23080960
+conv_nonzero:  tensor(18456624., device='cuda:0')
+======================================================================
+total_conv:  23072768
+conv_nonzero:  tensor(18456476., device='cuda:0')
+======================================================================
+[2022-09-11 16:58:45] - INFO: [Iter 15599 Task segm] Val Loss: 1.6400
+[2022-09-11 16:58:45] - INFO: {'mIoU': 0.2629, 'Pixel Acc': 0.5865}
+[2022-09-11 16:58:47] - INFO: [Iter 15599 Task norm] Val Loss: 0.0599
+[2022-09-11 16:58:47] - INFO: {'Angle Mean': 16.803, 'Angle Median': 15.124, 'Angle 11.25': 35.8518, 'Angle 22.5': 72.9072, 'Angle 30': 87.0641}
+[2022-09-11 16:58:48] - INFO: [Iter 15599 Task dept] Val Loss: 0.5534
+[2022-09-11 16:58:48] - INFO: {'abs_err': 0.5506, 'rel_err': 0.2105, 'sigma_1.25': 64.452, 'sigma_1.25^2': 90.0214, 'sigma_1.25^3': 97.5528}
+[2022-09-11 16:58:48] - INFO: ======================================================================
+[2022-09-11 16:58:48] - INFO: test score: 1.2251
+python test.py --path outputs/resnet34_1028/finetune/0.3/best_segment_semantic_normal_depth_zbuffer.model --architecture resnet34
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+[2022-09-11 16:58:58] - INFO: ******* path: outputs/resnet34_1028/finetune/0.3/best_segment_semantic_normal_depth_zbuffer.model
+[2022-09-11 16:59:01] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+total_conv:  21267648
+conv_nonzero:  tensor(14882591., device='cuda:0')
+======================================================================
+total_conv:  23232512
+conv_nonzero:  tensor(16253057., device='cuda:0')
+======================================================================
+total_conv:  23080960
+conv_nonzero:  tensor(16150328., device='cuda:0')
+======================================================================
+total_conv:  23072768
+conv_nonzero:  tensor(16147890., device='cuda:0')
+======================================================================
+[2022-09-11 16:59:36] - INFO: [Iter 13799 Task segm] Val Loss: 1.6846
+[2022-09-11 16:59:36] - INFO: {'mIoU': 0.2542, 'Pixel Acc': 0.5845}
+[2022-09-11 16:59:37] - INFO: [Iter 13799 Task norm] Val Loss: 0.0613
+[2022-09-11 16:59:37] - INFO: {'Angle Mean': 16.9169, 'Angle Median': 14.6257, 'Angle 11.25': 36.561, 'Angle 22.5': 74.4372, 'Angle 30': 86.3498}
+[2022-09-11 16:59:38] - INFO: [Iter 13799 Task dept] Val Loss: 0.5448
+[2022-09-11 16:59:38] - INFO: {'abs_err': 0.5439, 'rel_err': 0.2143, 'sigma_1.25': 65.0399, 'sigma_1.25^2': 90.0428, 'sigma_1.25^3': 97.5458}
+[2022-09-11 16:59:38] - INFO: ======================================================================
+[2022-09-11 16:59:38] - INFO: test score: 1.2412
+python test.py --path outputs/resnet34_1028/finetune/0.4/best_segment_semantic_normal_depth_zbuffer.model --architecture resnet34
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+[2022-09-11 16:59:48] - INFO: ******* path: outputs/resnet34_1028/finetune/0.4/best_segment_semantic_normal_depth_zbuffer.model
+[2022-09-11 16:59:48] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+total_conv:  21267648
+conv_nonzero:  tensor(12757598., device='cuda:0')
+======================================================================
+total_conv:  23232512
+conv_nonzero:  tensor(13937035., device='cuda:0')
+======================================================================
+total_conv:  23080960
+conv_nonzero:  tensor(13832777., device='cuda:0')
+======================================================================
+total_conv:  23072768
+conv_nonzero:  tensor(13834538., device='cuda:0')
+======================================================================
+[2022-09-11 17:00:23] - INFO: [Iter 15399 Task segm] Val Loss: 1.6395
+[2022-09-11 17:00:23] - INFO: {'mIoU': 0.2663, 'Pixel Acc': 0.5844}
+[2022-09-11 17:00:24] - INFO: [Iter 15399 Task norm] Val Loss: 0.0612
+[2022-09-11 17:00:24] - INFO: {'Angle Mean': 16.9527, 'Angle Median': 14.8708, 'Angle 11.25': 35.7203, 'Angle 22.5': 74.0285, 'Angle 30': 86.6911}
+[2022-09-11 17:00:25] - INFO: [Iter 15399 Task dept] Val Loss: 0.5457
+[2022-09-11 17:00:25] - INFO: {'abs_err': 0.5443, 'rel_err': 0.2101, 'sigma_1.25': 65.0135, 'sigma_1.25^2': 90.0484, 'sigma_1.25^3': 97.595}
+[2022-09-11 17:00:25] - INFO: ======================================================================
+[2022-09-11 17:00:25] - INFO: test score: 1.2387
+python test.py --path outputs/resnet34_1028/finetune/0.5/best_segment_semantic_normal_depth_zbuffer.model --architecture resnet34
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+[2022-09-11 17:00:34] - INFO: ******* path: outputs/resnet34_1028/finetune/0.5/best_segment_semantic_normal_depth_zbuffer.model
+[2022-09-11 17:00:35] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+total_conv:  21267648
+conv_nonzero:  tensor(10623530., device='cuda:0')
+======================================================================
+total_conv:  23232512
+conv_nonzero:  tensor(11604345., device='cuda:0')
+======================================================================
+total_conv:  23080960
+conv_nonzero:  tensor(11524516., device='cuda:0')
+======================================================================
+total_conv:  23072768
+conv_nonzero:  tensor(11523979., device='cuda:0')
+======================================================================
+[2022-09-11 17:01:09] - INFO: [Iter 19799 Task segm] Val Loss: 1.6943
+[2022-09-11 17:01:09] - INFO: {'mIoU': 0.2594, 'Pixel Acc': 0.5858}
+[2022-09-11 17:01:10] - INFO: [Iter 19799 Task norm] Val Loss: 0.0619
+[2022-09-11 17:01:10] - INFO: {'Angle Mean': 17.0273, 'Angle Median': 14.8586, 'Angle 11.25': 36.0294, 'Angle 22.5': 73.3597, 'Angle 30': 86.1349}
+[2022-09-11 17:01:12] - INFO: [Iter 19799 Task dept] Val Loss: 0.5424
+[2022-09-11 17:01:12] - INFO: {'abs_err': 0.5401, 'rel_err': 0.2094, 'sigma_1.25': 65.0464, 'sigma_1.25^2': 90.2798, 'sigma_1.25^3': 97.7377}
+[2022-09-11 17:01:12] - INFO: ======================================================================
+[2022-09-11 17:01:12] - INFO: test score: 1.2369
+python test.py --path outputs/resnet34_1028/finetune/0.6/best_segment_semantic_normal_depth_zbuffer.model --architecture resnet34
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+[2022-09-11 17:01:21] - INFO: ******* path: outputs/resnet34_1028/finetune/0.6/best_segment_semantic_normal_depth_zbuffer.model
+[2022-09-11 17:01:30] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+total_conv:  21267648
+conv_nonzero:  tensor(8507009., device='cuda:0')
+======================================================================
+total_conv:  23232512
+conv_nonzero:  tensor(9280480., device='cuda:0')
+======================================================================
+total_conv:  23080960
+conv_nonzero:  tensor(9228198., device='cuda:0')
+======================================================================
+total_conv:  23072768
+conv_nonzero:  tensor(9214012., device='cuda:0')
+======================================================================
+[2022-09-11 17:02:05] - INFO: [Iter 16999 Task segm] Val Loss: 1.6784
+[2022-09-11 17:02:05] - INFO: {'mIoU': 0.2627, 'Pixel Acc': 0.5874}
+[2022-09-11 17:02:06] - INFO: [Iter 16999 Task norm] Val Loss: 0.0602
+[2022-09-11 17:02:06] - INFO: {'Angle Mean': 16.8334, 'Angle Median': 14.8033, 'Angle 11.25': 35.9505, 'Angle 22.5': 74.1177, 'Angle 30': 86.7737}
+[2022-09-11 17:02:07] - INFO: [Iter 16999 Task dept] Val Loss: 0.5440
+[2022-09-11 17:02:07] - INFO: {'abs_err': 0.5432, 'rel_err': 0.2095, 'sigma_1.25': 65.2475, 'sigma_1.25^2': 90.2112, 'sigma_1.25^3': 97.6648}
+[2022-09-11 17:02:07] - INFO: ======================================================================
+[2022-09-11 17:02:07] - INFO: test score: 1.248
+python test.py --path outputs/resnet34_1028/finetune/0.7/best_segment_semantic_normal_depth_zbuffer.model --architecture resnet34
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+[2022-09-11 17:02:16] - INFO: ******* path: outputs/resnet34_1028/finetune/0.7/best_segment_semantic_normal_depth_zbuffer.model
+[2022-09-11 17:02:18] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+total_conv:  21267648
+conv_nonzero:  tensor(6380276., device='cuda:0')
+======================================================================
+total_conv:  23232512
+conv_nonzero:  tensor(6967622., device='cuda:0')
+======================================================================
+total_conv:  23080960
+conv_nonzero:  tensor(6917006., device='cuda:0')
+======================================================================
+total_conv:  23072768
+conv_nonzero:  tensor(6906930., device='cuda:0')
+======================================================================
+[2022-09-11 17:02:53] - INFO: [Iter 16199 Task segm] Val Loss: 1.6527
+[2022-09-11 17:02:53] - INFO: {'mIoU': 0.268, 'Pixel Acc': 0.59}
+[2022-09-11 17:02:54] - INFO: [Iter 16199 Task norm] Val Loss: 0.0612
+[2022-09-11 17:02:54] - INFO: {'Angle Mean': 17.0081, 'Angle Median': 15.0842, 'Angle 11.25': 35.3806, 'Angle 22.5': 73.1814, 'Angle 30': 86.4769}
+[2022-09-11 17:02:55] - INFO: [Iter 16199 Task dept] Val Loss: 0.5448
+[2022-09-11 17:02:55] - INFO: {'abs_err': 0.5437, 'rel_err': 0.2127, 'sigma_1.25': 65.3523, 'sigma_1.25^2': 90.0345, 'sigma_1.25^3': 97.3878}
+[2022-09-11 17:02:55] - INFO: ======================================================================
+[2022-09-11 17:02:55] - INFO: test score: 1.2251
+python test.py --path outputs/resnet34_1028/finetune/0.8/best_segment_semantic_normal_depth_zbuffer.model --architecture resnet34
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+[2022-09-11 17:03:04] - INFO: ******* path: outputs/resnet34_1028/finetune/0.8/best_segment_semantic_normal_depth_zbuffer.model
+[2022-09-11 17:03:05] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+total_conv:  21267648
+conv_nonzero:  tensor(4253520., device='cuda:0')
+======================================================================
+total_conv:  23232512
+conv_nonzero:  tensor(4646256., device='cuda:0')
+======================================================================
+total_conv:  23080960
+conv_nonzero:  tensor(4611093., device='cuda:0')
+======================================================================
+total_conv:  23072768
+conv_nonzero:  tensor(4610434., device='cuda:0')
+======================================================================
+[2022-09-11 17:03:40] - INFO: [Iter 19799 Task segm] Val Loss: 1.7276
+[2022-09-11 17:03:40] - INFO: {'mIoU': 0.2646, 'Pixel Acc': 0.5838}
+[2022-09-11 17:03:41] - INFO: [Iter 19799 Task norm] Val Loss: 0.0628
+[2022-09-11 17:03:41] - INFO: {'Angle Mean': 17.1137, 'Angle Median': 15.0144, 'Angle 11.25': 35.8824, 'Angle 22.5': 72.5719, 'Angle 30': 85.8702}
+[2022-09-11 17:03:42] - INFO: [Iter 19799 Task dept] Val Loss: 0.5383
+[2022-09-11 17:03:42] - INFO: {'abs_err': 0.5378, 'rel_err': 0.2101, 'sigma_1.25': 65.3867, 'sigma_1.25^2': 90.5865, 'sigma_1.25^3': 97.7632}
+[2022-09-11 17:03:42] - INFO: ======================================================================
+[2022-09-11 17:03:42] - INFO: test score: 1.2319
+python test.py --path outputs/resnet34_1028/finetune/0.85/best_segment_semantic_normal_depth_zbuffer.model --architecture resnet34
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+[2022-09-11 17:03:51] - INFO: ******* path: outputs/resnet34_1028/finetune/0.85/best_segment_semantic_normal_depth_zbuffer.model
+[2022-09-11 17:03:58] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+total_conv:  21267648
+conv_nonzero:  tensor(3190141., device='cuda:0')
+======================================================================
+total_conv:  23232512
+conv_nonzero:  tensor(3484797., device='cuda:0')
+======================================================================
+total_conv:  23080960
+conv_nonzero:  tensor(3458861., device='cuda:0')
+======================================================================
+total_conv:  23072768
+conv_nonzero:  tensor(3460755., device='cuda:0')
+======================================================================
+[2022-09-11 17:04:33] - INFO: [Iter 18999 Task segm] Val Loss: 1.7044
+[2022-09-11 17:04:33] - INFO: {'mIoU': 0.2654, 'Pixel Acc': 0.5863}
+[2022-09-11 17:04:35] - INFO: [Iter 18999 Task norm] Val Loss: 0.0611
+[2022-09-11 17:04:35] - INFO: {'Angle Mean': 16.867, 'Angle Median': 14.7178, 'Angle 11.25': 36.8416, 'Angle 22.5': 73.5935, 'Angle 30': 86.355}
+[2022-09-11 17:04:36] - INFO: [Iter 18999 Task dept] Val Loss: 0.5431
+[2022-09-11 17:04:36] - INFO: {'abs_err': 0.5422, 'rel_err': 0.211, 'sigma_1.25': 65.1597, 'sigma_1.25^2': 90.4497, 'sigma_1.25^3': 97.5967}
+[2022-09-11 17:04:36] - INFO: ======================================================================
+[2022-09-11 17:04:36] - INFO: test score: 1.2551
+python test.py --path outputs/resnet34_1028/finetune/0.9/best_segment_semantic_normal_depth_zbuffer.model --architecture resnet34
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+[2022-09-11 17:04:45] - INFO: ******* path: outputs/resnet34_1028/finetune/0.9/best_segment_semantic_normal_depth_zbuffer.model
+[2022-09-11 17:04:49] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+total_conv:  21267648
+conv_nonzero:  tensor(2126763., device='cuda:0')
+======================================================================
+total_conv:  23232512
+conv_nonzero:  tensor(2323222., device='cuda:0')
+======================================================================
+total_conv:  23080960
+conv_nonzero:  tensor(2307240., device='cuda:0')
+======================================================================
+total_conv:  23072768
+conv_nonzero:  tensor(2307225., device='cuda:0')
+======================================================================
+[2022-09-11 17:05:23] - INFO: [Iter 15799 Task segm] Val Loss: 1.6877
+[2022-09-11 17:05:23] - INFO: {'mIoU': 0.2591, 'Pixel Acc': 0.5804}
+[2022-09-11 17:05:24] - INFO: [Iter 15799 Task norm] Val Loss: 0.0611
+[2022-09-11 17:05:24] - INFO: {'Angle Mean': 17.0562, 'Angle Median': 14.885, 'Angle 11.25': 34.6713, 'Angle 22.5': 74.4506, 'Angle 30': 86.5282}
+[2022-09-11 17:05:25] - INFO: [Iter 15799 Task dept] Val Loss: 0.5367
+[2022-09-11 17:05:25] - INFO: {'abs_err': 0.5364, 'rel_err': 0.2109, 'sigma_1.25': 65.3752, 'sigma_1.25^2': 90.4116, 'sigma_1.25^3': 97.7142}
+[2022-09-11 17:05:25] - INFO: ======================================================================
+[2022-09-11 17:05:25] - INFO: test score: 1.2274
+python test.py --path outputs/resnet34_1028/finetune/0.93/best_segment_semantic_normal_depth_zbuffer.model --architecture resnet34
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+[2022-09-11 17:05:34] - INFO: ******* path: outputs/resnet34_1028/finetune/0.93/best_segment_semantic_normal_depth_zbuffer.model
+[2022-09-11 17:05:42] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+total_conv:  21267648
+conv_nonzero:  tensor(1488732., device='cuda:0')
+======================================================================
+total_conv:  23232512
+conv_nonzero:  tensor(1626256., device='cuda:0')
+======================================================================
+total_conv:  23080960
+conv_nonzero:  tensor(1614572., device='cuda:0')
+======================================================================
+total_conv:  23072768
+conv_nonzero:  tensor(1615065., device='cuda:0')
+======================================================================
+[2022-09-11 17:06:16] - INFO: [Iter 16199 Task segm] Val Loss: 1.7004
+[2022-09-11 17:06:16] - INFO: {'mIoU': 0.263, 'Pixel Acc': 0.5826}
+[2022-09-11 17:06:17] - INFO: [Iter 16199 Task norm] Val Loss: 0.0619
+[2022-09-11 17:06:17] - INFO: {'Angle Mean': 17.1079, 'Angle Median': 15.0921, 'Angle 11.25': 34.7659, 'Angle 22.5': 73.6361, 'Angle 30': 86.3339}
+[2022-09-11 17:06:19] - INFO: [Iter 16199 Task dept] Val Loss: 0.5309
+[2022-09-11 17:06:19] - INFO: {'abs_err': 0.5322, 'rel_err': 0.2094, 'sigma_1.25': 66.3087, 'sigma_1.25^2': 90.5012, 'sigma_1.25^3': 97.7082}
+[2022-09-11 17:06:19] - INFO: ======================================================================
+[2022-09-11 17:06:19] - INFO: test score: 1.232
+python test.py --path outputs/resnet34_1028/finetune/0.95/best_segment_semantic_normal_depth_zbuffer.model --architecture resnet34
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+[2022-09-11 17:06:27] - INFO: ******* path: outputs/resnet34_1028/finetune/0.95/best_segment_semantic_normal_depth_zbuffer.model
+[2022-09-11 17:06:28] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+total_conv:  21267648
+conv_nonzero:  tensor(1063380., device='cuda:0')
+======================================================================
+total_conv:  23232512
+conv_nonzero:  tensor(1161613., device='cuda:0')
+======================================================================
+total_conv:  23080960
+conv_nonzero:  tensor(1153974., device='cuda:0')
+======================================================================
+total_conv:  23072768
+conv_nonzero:  tensor(1153626., device='cuda:0')
+======================================================================
+[2022-09-11 17:07:02] - INFO: [Iter 6599 Task segm] Val Loss: 1.6348
+[2022-09-11 17:07:02] - INFO: {'mIoU': 0.2473, 'Pixel Acc': 0.5699}
+[2022-09-11 17:07:03] - INFO: [Iter 6599 Task norm] Val Loss: 0.0600
+[2022-09-11 17:07:03] - INFO: {'Angle Mean': 16.8083, 'Angle Median': 14.6538, 'Angle 11.25': 35.5644, 'Angle 22.5': 75.5694, 'Angle 30': 87.1105}
+[2022-09-11 17:07:05] - INFO: [Iter 6599 Task dept] Val Loss: 0.5463
+[2022-09-11 17:07:05] - INFO: {'abs_err': 0.5457, 'rel_err': 0.2146, 'sigma_1.25': 63.983, 'sigma_1.25^2': 89.8773, 'sigma_1.25^3': 97.6815}
+[2022-09-11 17:07:05] - INFO: ======================================================================
+[2022-09-11 17:07:05] - INFO: test score: 1.2235
+python test.py --path outputs/resnet34_1028/finetune/0.97/best_segment_semantic_normal_depth_zbuffer.model --architecture resnet34
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+[2022-09-11 17:07:13] - INFO: ******* path: outputs/resnet34_1028/finetune/0.97/best_segment_semantic_normal_depth_zbuffer.model
+[2022-09-11 17:07:21] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+total_conv:  21267648
+conv_nonzero:  tensor(638027., device='cuda:0')
+======================================================================
+total_conv:  23232512
+conv_nonzero:  tensor(696967., device='cuda:0')
+======================================================================
+total_conv:  23080960
+conv_nonzero:  tensor(692369., device='cuda:0')
+======================================================================
+total_conv:  23072768
+conv_nonzero:  tensor(692173., device='cuda:0')
+======================================================================
+[2022-09-11 17:07:56] - INFO: [Iter 17999 Task segm] Val Loss: 1.6564
+[2022-09-11 17:07:56] - INFO: {'mIoU': 0.2559, 'Pixel Acc': 0.5778}
+[2022-09-11 17:07:57] - INFO: [Iter 17999 Task norm] Val Loss: 0.0620
+[2022-09-11 17:07:57] - INFO: {'Angle Mean': 17.1122, 'Angle Median': 15.3008, 'Angle 11.25': 34.4297, 'Angle 22.5': 73.0255, 'Angle 30': 86.4051}
+[2022-09-11 17:07:59] - INFO: [Iter 17999 Task dept] Val Loss: 0.5431
+[2022-09-11 17:07:59] - INFO: {'abs_err': 0.5422, 'rel_err': 0.2085, 'sigma_1.25': 65.6334, 'sigma_1.25^2': 90.4236, 'sigma_1.25^3': 97.6392}
+[2022-09-11 17:07:59] - INFO: ======================================================================
+[2022-09-11 17:07:59] - INFO: test score: 1.207
+python test.py --path outputs/resnet34_1028/finetune/0.99/best_segment_semantic_normal_depth_zbuffer.model --architecture resnet34
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+[2022-09-11 17:08:08] - INFO: ******* path: outputs/resnet34_1028/finetune/0.99/best_segment_semantic_normal_depth_zbuffer.model
+[2022-09-11 17:08:08] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+total_conv:  21267648
+conv_nonzero:  tensor(212675., device='cuda:0')
+======================================================================
+total_conv:  23232512
+conv_nonzero:  tensor(232320., device='cuda:0')
+======================================================================
+total_conv:  23080960
+conv_nonzero:  tensor(230800., device='cuda:0')
+======================================================================
+total_conv:  23072768
+conv_nonzero:  tensor(230722., device='cuda:0')
+======================================================================
+[2022-09-11 17:08:43] - INFO: [Iter 15799 Task segm] Val Loss: 1.5975
+[2022-09-11 17:08:43] - INFO: {'mIoU': 0.2462, 'Pixel Acc': 0.5636}
+[2022-09-11 17:08:43] - INFO: [Iter 15799 Task norm] Val Loss: 0.0602
+[2022-09-11 17:08:43] - INFO: {'Angle Mean': 16.8996, 'Angle Median': 15.1418, 'Angle 11.25': 34.8377, 'Angle 22.5': 74.5241, 'Angle 30': 87.1848}
+[2022-09-11 17:08:44] - INFO: [Iter 15799 Task dept] Val Loss: 0.5603
+[2022-09-11 17:08:44] - INFO: {'abs_err': 0.5575, 'rel_err': 0.207, 'sigma_1.25': 64.7438, 'sigma_1.25^2': 89.8153, 'sigma_1.25^3': 97.3651}
+[2022-09-11 17:08:44] - INFO: ======================================================================
+[2022-09-11 17:08:44] - INFO: test score: 1.2042

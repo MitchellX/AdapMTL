@@ -1,0 +1,108 @@
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+[2023-09-03 15:16:34] - INFO: ******* path: outputs/unity/resnet34_0305//baseline_minus15_decay0.000000095_weighted_loss_sliding_windows/best_segment_semantic_normal_depth_zbuffer.model
+[2023-09-03 15:16:35] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-09-03 15:16:35] - INFO: Backbone sparsity: 3.82
+[2023-09-03 15:16:35] - INFO: segment_semantic sparsity: 3.6
+[2023-09-03 15:16:35] - INFO: normal sparsity: 57.97
+[2023-09-03 15:16:35] - INFO: depth sparsity: 1.83
+[2023-09-03 15:16:35] - INFO: overall_sparsity: 17.04
+[2023-09-03 15:16:35] - INFO: ======================================================================
+[2023-09-03 15:17:08] - INFO: [Iter 19599 Task segm] Val Loss: 1.6849
+[2023-09-03 15:17:08] - INFO: {'mIoU': 0.2614, 'Pixel Acc': 0.5797}
+[2023-09-03 15:17:09] - INFO: [Iter 19599 Task norm] Val Loss: 0.0680
+[2023-09-03 15:17:09] - INFO: {'Angle Mean': 17.4177, 'Angle Median': 14.476, 'Angle 11.25': 39.1583, 'Angle 22.5': 70.899, 'Angle 30': 83.2464}
+[2023-09-03 15:17:10] - INFO: [Iter 19599 Task dept] Val Loss: 0.5446
+[2023-09-03 15:17:10] - INFO: {'abs_err': 0.5464, 'rel_err': 0.2241, 'sigma_1.25': 64.3905, 'sigma_1.25^2': 89.7955, 'sigma_1.25^3': 97.5368}
+[2023-09-03 15:17:10] - INFO: ======================================================================
+[2023-09-03 15:17:10] - INFO: test score: 1.2189
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+[2023-09-03 15:17:19] - INFO: ******* path: outputs/unity/resnet34_0305//baseline_minus15_decay0.00000048_weighted_loss_sliding_windows/best_segment_semantic_normal_depth_zbuffer.model
+[2023-09-03 15:17:20] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-09-03 15:17:20] - INFO: Backbone sparsity: 12.36
+[2023-09-03 15:17:20] - INFO: segment_semantic sparsity: 18.73
+[2023-09-03 15:17:20] - INFO: normal sparsity: 80.64
+[2023-09-03 15:17:20] - INFO: depth sparsity: 12.39
+[2023-09-03 15:17:20] - INFO: overall_sparsity: 31.38
+[2023-09-03 15:17:20] - INFO: ======================================================================
+[2023-09-03 15:17:53] - INFO: [Iter 15799 Task segm] Val Loss: 3.6035
+[2023-09-03 15:17:53] - INFO: {'mIoU': 0.2364, 'Pixel Acc': 0.5606}
+[2023-09-03 15:17:54] - INFO: [Iter 15799 Task norm] Val Loss: 0.0688
+[2023-09-03 15:17:54] - INFO: {'Angle Mean': 17.5289, 'Angle Median': 14.6469, 'Angle 11.25': 38.7675, 'Angle 22.5': 70.3305, 'Angle 30': 83.0873}
+[2023-09-03 15:17:55] - INFO: [Iter 15799 Task dept] Val Loss: 0.5972
+[2023-09-03 15:17:55] - INFO: {'abs_err': 0.5986, 'rel_err': 0.245, 'sigma_1.25': 62.227, 'sigma_1.25^2': 88.6515, 'sigma_1.25^3': 96.8636}
+[2023-09-03 15:17:55] - INFO: ======================================================================
+[2023-09-03 15:17:55] - INFO: test score: 1.1069
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+[2023-09-03 15:18:05] - INFO: ******* path: outputs/unity/resnet34_0305//baseline_minus15_decay0.000005_weighted_loss_sliding_windows/best_segment_semantic_normal_depth_zbuffer.model
+[2023-09-03 15:18:05] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-09-03 15:18:05] - INFO: Backbone sparsity: 33.27
+[2023-09-03 15:18:05] - INFO: segment_semantic sparsity: 69.42
+[2023-09-03 15:18:05] - INFO: normal sparsity: 97.42
+[2023-09-03 15:18:05] - INFO: depth sparsity: 69.03
+[2023-09-03 15:18:05] - INFO: overall_sparsity: 67.97
+[2023-09-03 15:18:05] - INFO: ======================================================================
+[2023-09-03 15:18:38] - INFO: [Iter 19399 Task segm] Val Loss: 3.0954
+[2023-09-03 15:18:38] - INFO: {'mIoU': 0.2399, 'Pixel Acc': 0.5636}
+[2023-09-03 15:18:39] - INFO: [Iter 19399 Task norm] Val Loss: 0.0681
+[2023-09-03 15:18:39] - INFO: {'Angle Mean': 17.4886, 'Angle Median': 14.6486, 'Angle 11.25': 38.2733, 'Angle 22.5': 71.1334, 'Angle 30': 83.3698}
+[2023-09-03 15:18:40] - INFO: [Iter 19399 Task dept] Val Loss: 0.6024
+[2023-09-03 15:18:40] - INFO: {'abs_err': 0.6019, 'rel_err': 0.2421, 'sigma_1.25': 64.467, 'sigma_1.25^2': 89.5505, 'sigma_1.25^3': 97.213}
+[2023-09-03 15:18:40] - INFO: ======================================================================
+[2023-09-03 15:18:40] - INFO: test score: 1.1298
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+[2023-09-03 15:18:49] - INFO: ******* path: outputs/unity/resnet34_0305//baseline_minus15_decay0.0000095_weighted_loss_sliding_windows/best_segment_semantic_normal_depth_zbuffer.model
+[2023-09-03 15:18:50] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-09-03 15:18:50] - INFO: Backbone sparsity: 38.81
+[2023-09-03 15:18:50] - INFO: segment_semantic sparsity: 76.94
+[2023-09-03 15:18:50] - INFO: normal sparsity: 98.62
+[2023-09-03 15:18:50] - INFO: depth sparsity: 78.31
+[2023-09-03 15:18:50] - INFO: overall_sparsity: 73.86
+[2023-09-03 15:18:50] - INFO: ======================================================================
+[2023-09-03 15:19:23] - INFO: [Iter 18199 Task segm] Val Loss: 1.7284
+[2023-09-03 15:19:23] - INFO: {'mIoU': 0.2502, 'Pixel Acc': 0.5718}
+[2023-09-03 15:19:24] - INFO: [Iter 18199 Task norm] Val Loss: 0.0639
+[2023-09-03 15:19:24] - INFO: {'Angle Mean': 17.0433, 'Angle Median': 14.4717, 'Angle 11.25': 38.2475, 'Angle 22.5': 72.7703, 'Angle 30': 85.0232}
+[2023-09-03 15:19:25] - INFO: [Iter 18199 Task dept] Val Loss: 0.5558
+[2023-09-03 15:19:25] - INFO: {'abs_err': 0.5568, 'rel_err': 0.225, 'sigma_1.25': 64.4988, 'sigma_1.25^2': 89.2084, 'sigma_1.25^3': 97.2319}
+[2023-09-03 15:19:25] - INFO: ======================================================================
+[2023-09-03 15:19:25] - INFO: test score: 1.2124
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+[2023-09-03 15:19:35] - INFO: ******* path: outputs/unity/resnet34_0305//baseline_minus15_decay0.000011_weighted_loss_sliding_windows/best_segment_semantic_normal_depth_zbuffer.model
+[2023-09-03 15:19:35] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-09-03 15:19:35] - INFO: Backbone sparsity: 28.45
+[2023-09-03 15:19:35] - INFO: segment_semantic sparsity: 73.57
+[2023-09-03 15:19:35] - INFO: normal sparsity: 96.66
+[2023-09-03 15:19:35] - INFO: depth sparsity: 60.51
+[2023-09-03 15:19:35] - INFO: overall_sparsity: 65.54
+[2023-09-03 15:19:35] - INFO: ======================================================================
+[2023-09-03 15:20:09] - INFO: [Iter 9399 Task segm] Val Loss: 1.5814
+[2023-09-03 15:20:09] - INFO: {'mIoU': 0.2322, 'Pixel Acc': 0.5558}
+[2023-09-03 15:20:09] - INFO: [Iter 9399 Task norm] Val Loss: 0.0625
+[2023-09-03 15:20:09] - INFO: {'Angle Mean': 17.1677, 'Angle Median': 14.785, 'Angle 11.25': 35.5569, 'Angle 22.5': 74.1713, 'Angle 30': 86.1351}
+[2023-09-03 15:20:11] - INFO: [Iter 9399 Task dept] Val Loss: 0.5718
+[2023-09-03 15:20:11] - INFO: {'abs_err': 0.5731, 'rel_err': 0.2341, 'sigma_1.25': 62.8177, 'sigma_1.25^2': 88.6686, 'sigma_1.25^3': 96.8142}
+[2023-09-03 15:20:11] - INFO: ======================================================================
+[2023-09-03 15:20:11] - INFO: test score: 1.1329
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+[2023-09-03 15:20:20] - INFO: ******* path: outputs/unity/resnet34_0305//baseline_minus15_decay0.00006_weighted_loss_sliding_windows/best_segment_semantic_normal_depth_zbuffer.model
+[2023-09-03 15:20:20] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-09-03 15:20:21] - INFO: Backbone sparsity: 76.45
+[2023-09-03 15:20:21] - INFO: segment_semantic sparsity: 93.45
+[2023-09-03 15:20:21] - INFO: normal sparsity: 99.78
+[2023-09-03 15:20:21] - INFO: depth sparsity: 95.98
+[2023-09-03 15:20:21] - INFO: overall_sparsity: 91.72
+[2023-09-03 15:20:21] - INFO: ======================================================================
+[2023-09-03 15:20:53] - INFO: [Iter 18799 Task segm] Val Loss: 1.6459
+[2023-09-03 15:20:53] - INFO: {'mIoU': 0.2576, 'Pixel Acc': 0.5752}
+[2023-09-03 15:20:54] - INFO: [Iter 18799 Task norm] Val Loss: 0.0623
+[2023-09-03 15:20:54] - INFO: {'Angle Mean': 17.2963, 'Angle Median': 15.8749, 'Angle 11.25': 33.2713, 'Angle 22.5': 71.5055, 'Angle 30': 86.473}
+[2023-09-03 15:20:55] - INFO: [Iter 18799 Task dept] Val Loss: 0.5724
+[2023-09-03 15:20:55] - INFO: {'abs_err': 0.5727, 'rel_err': 0.2282, 'sigma_1.25': 62.3697, 'sigma_1.25^2': 88.7332, 'sigma_1.25^3': 97.1512}
+[2023-09-03 15:20:55] - INFO: ======================================================================
+[2023-09-03 15:20:55] - INFO: test score: 1.1

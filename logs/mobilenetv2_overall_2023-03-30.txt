@@ -1,0 +1,240 @@
+[2023-30-03 18:01:16] - INFO: ******* path: /home/tongping/mingcan/github/Pruning/Global_pruning/outputs/mobilenet_1113/finetune//0.1/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 18:01:26] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 18:01:26] - INFO: Backbone sparsity: 0.9981906414031982
+[2023-30-03 18:01:26] - INFO: segment_semantic sparsity: 0.8827676773071289
+[2023-30-03 18:01:26] - INFO: normal sparsity: 0.9029465317726135
+[2023-30-03 18:01:26] - INFO: depth sparsity: 0.9098880290985107
+[2023-30-03 18:01:26] - INFO: overall_sparsity: 0
+[2023-30-03 18:01:46] - INFO: [Iter 15999 Task segm] Val Loss: 1.6068
+[2023-30-03 18:01:46] - INFO: {'mIoU': 0.2158, 'Pixel Acc': 0.503}
+[2023-30-03 18:01:47] - INFO: [Iter 15999 Task norm] Val Loss: 0.0612
+[2023-30-03 18:01:47] - INFO: {'Angle Mean': 17.4201, 'Angle Median': 15.2743, 'Angle 11.25': 32.7088, 'Angle 22.5': 73.444, 'Angle 30': 86.2485}
+[2023-30-03 18:01:47] - INFO: [Iter 15999 Task dept] Val Loss: 0.5779
+[2023-30-03 18:01:47] - INFO: {'abs_err': 0.5895, 'rel_err': 0.2259, 'sigma_1.25': 61.1276, 'sigma_1.25^2': 87.9367, 'sigma_1.25^3': 96.7454}
+[2023-30-03 18:01:47] - INFO: ======================================================================
+[2023-30-03 18:01:47] - INFO: test score: 1.1203
+[2023-30-03 18:01:59] - INFO: ******* path: /home/tongping/mingcan/github/Pruning/Global_pruning/outputs/mobilenet_1113/finetune//0.2/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 18:02:15] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 18:02:15] - INFO: Backbone sparsity: 0.9900623559951782
+[2023-30-03 18:02:15] - INFO: segment_semantic sparsity: 0.7531815767288208
+[2023-30-03 18:02:15] - INFO: normal sparsity: 0.8154113292694092
+[2023-30-03 18:02:15] - INFO: depth sparsity: 0.8233144879341125
+[2023-30-03 18:02:15] - INFO: overall_sparsity: 0
+[2023-30-03 18:02:36] - INFO: [Iter 14599 Task segm] Val Loss: 1.5933
+[2023-30-03 18:02:36] - INFO: {'mIoU': 0.2193, 'Pixel Acc': 0.5026}
+[2023-30-03 18:02:36] - INFO: [Iter 14599 Task norm] Val Loss: 0.0619
+[2023-30-03 18:02:36] - INFO: {'Angle Mean': 17.7401, 'Angle Median': 15.8761, 'Angle 11.25': 29.9238, 'Angle 22.5': 73.2247, 'Angle 30': 86.4557}
+[2023-30-03 18:02:37] - INFO: [Iter 14599 Task dept] Val Loss: 0.5710
+[2023-30-03 18:02:37] - INFO: {'abs_err': 0.5823, 'rel_err': 0.2229, 'sigma_1.25': 61.8799, 'sigma_1.25^2': 88.1137, 'sigma_1.25^3': 96.8493}
+[2023-30-03 18:02:37] - INFO: ======================================================================
+[2023-30-03 18:02:37] - INFO: test score: 1.0856
+[2023-30-03 18:02:49] - INFO: ******* path: /home/tongping/mingcan/github/Pruning/Global_pruning/outputs/mobilenet_1113/finetune//0.3/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 18:03:18] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 18:03:18] - INFO: Backbone sparsity: 0.9346435070037842
+[2023-30-03 18:03:18] - INFO: segment_semantic sparsity: 0.6517319083213806
+[2023-30-03 18:03:18] - INFO: normal sparsity: 0.7151439189910889
+[2023-30-03 18:03:18] - INFO: depth sparsity: 0.7231484651565552
+[2023-30-03 18:03:18] - INFO: overall_sparsity: 0
+[2023-30-03 18:03:38] - INFO: [Iter 15799 Task segm] Val Loss: 1.6269
+[2023-30-03 18:03:38] - INFO: {'mIoU': 0.2182, 'Pixel Acc': 0.4961}
+[2023-30-03 18:03:43] - INFO: [Iter 15799 Task norm] Val Loss: 0.0600
+[2023-30-03 18:03:43] - INFO: {'Angle Mean': 17.5042, 'Angle Median': 15.8633, 'Angle 11.25': 30.0036, 'Angle 22.5': 74.0392, 'Angle 30': 87.2651}
+[2023-30-03 18:03:51] - INFO: [Iter 15799 Task dept] Val Loss: 0.5534
+[2023-30-03 18:03:51] - INFO: {'abs_err': 0.5781, 'rel_err': 0.2359, 'sigma_1.25': 62.0601, 'sigma_1.25^2': 88.1941, 'sigma_1.25^3': 96.6029}
+[2023-30-03 18:03:51] - INFO: ======================================================================
+[2023-30-03 18:03:51] - INFO: test score: 1.0795
+[2023-30-03 18:04:03] - INFO: ******* path: /home/tongping/mingcan/github/Pruning/Global_pruning/outputs/mobilenet_1113/finetune//0.4/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 18:04:36] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 18:04:36] - INFO: Backbone sparsity: 0.7743579149246216
+[2023-30-03 18:04:36] - INFO: segment_semantic sparsity: 0.5778981447219849
+[2023-30-03 18:04:36] - INFO: normal sparsity: 0.6065225005149841
+[2023-30-03 18:04:36] - INFO: depth sparsity: 0.6074203848838806
+[2023-30-03 18:04:36] - INFO: overall_sparsity: 0
+[2023-30-03 18:04:56] - INFO: [Iter 18599 Task segm] Val Loss: 1.6281
+[2023-30-03 18:04:56] - INFO: {'mIoU': 0.2127, 'Pixel Acc': 0.498}
+[2023-30-03 18:04:59] - INFO: [Iter 18599 Task norm] Val Loss: 0.0616
+[2023-30-03 18:04:59] - INFO: {'Angle Mean': 17.6913, 'Angle Median': 16.0723, 'Angle 11.25': 30.4561, 'Angle 22.5': 72.4181, 'Angle 30': 86.6373}
+[2023-30-03 18:05:06] - INFO: [Iter 18599 Task dept] Val Loss: 0.5497
+[2023-30-03 18:05:06] - INFO: {'abs_err': 0.5723, 'rel_err': 0.2282, 'sigma_1.25': 62.595, 'sigma_1.25^2': 88.426, 'sigma_1.25^3': 96.7718}
+[2023-30-03 18:05:06] - INFO: ======================================================================
+[2023-30-03 18:05:06] - INFO: test score: 1.0813
+[2023-30-03 18:05:18] - INFO: ******* path: /home/tongping/mingcan/github/Pruning/Global_pruning/outputs/mobilenet_1113/finetune//0.5/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 18:05:42] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 18:05:42] - INFO: Backbone sparsity: 0.5433138608932495
+[2023-30-03 18:05:42] - INFO: segment_semantic sparsity: 0.5186574459075928
+[2023-30-03 18:05:42] - INFO: normal sparsity: 0.4906923174858093
+[2023-30-03 18:05:42] - INFO: depth sparsity: 0.4885998070240021
+[2023-30-03 18:05:42] - INFO: overall_sparsity: 0
+[2023-30-03 18:06:02] - INFO: [Iter 11999 Task segm] Val Loss: 1.6093
+[2023-30-03 18:06:02] - INFO: {'mIoU': 0.214, 'Pixel Acc': 0.4974}
+[2023-30-03 18:06:09] - INFO: [Iter 11999 Task norm] Val Loss: 0.0616
+[2023-30-03 18:06:09] - INFO: {'Angle Mean': 17.5173, 'Angle Median': 15.9877, 'Angle 11.25': 31.1504, 'Angle 22.5': 72.5635, 'Angle 30': 86.8056}
+[2023-30-03 18:06:18] - INFO: [Iter 11999 Task dept] Val Loss: 0.5774
+[2023-30-03 18:06:18] - INFO: {'abs_err': 0.5914, 'rel_err': 0.2277, 'sigma_1.25': 61.2569, 'sigma_1.25^2': 87.6143, 'sigma_1.25^3': 96.5122}
+[2023-30-03 18:06:18] - INFO: ======================================================================
+[2023-30-03 18:06:18] - INFO: test score: 1.0754
+[2023-30-03 18:06:30] - INFO: ******* path: /home/tongping/mingcan/github/Pruning/Global_pruning/outputs/mobilenet_1113/finetune//0.6/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 18:06:54] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 18:06:54] - INFO: Backbone sparsity: 0.5380311012268066
+[2023-30-03 18:06:54] - INFO: segment_semantic sparsity: 0.4153261184692383
+[2023-30-03 18:06:54] - INFO: normal sparsity: 0.3897567689418793
+[2023-30-03 18:06:54] - INFO: depth sparsity: 0.38886186480522156
+[2023-30-03 18:06:54] - INFO: overall_sparsity: 0
+[2023-30-03 18:07:14] - INFO: [Iter 18999 Task segm] Val Loss: 1.6331
+[2023-30-03 18:07:14] - INFO: {'mIoU': 0.2093, 'Pixel Acc': 0.5015}
+[2023-30-03 18:07:15] - INFO: [Iter 18999 Task norm] Val Loss: 0.0616
+[2023-30-03 18:07:15] - INFO: {'Angle Mean': 17.609, 'Angle Median': 15.9875, 'Angle 11.25': 31.1152, 'Angle 22.5': 72.1951, 'Angle 30': 86.6913}
+[2023-30-03 18:07:19] - INFO: [Iter 18999 Task dept] Val Loss: 0.5514
+[2023-30-03 18:07:19] - INFO: {'abs_err': 0.577, 'rel_err': 0.2355, 'sigma_1.25': 62.2682, 'sigma_1.25^2': 88.175, 'sigma_1.25^3': 96.5209}
+[2023-30-03 18:07:19] - INFO: ======================================================================
+[2023-30-03 18:07:19] - INFO: test score: 1.0733
+[2023-30-03 18:07:31] - INFO: ******* path: /home/tongping/mingcan/github/Pruning/Global_pruning/outputs/mobilenet_1113/finetune//0.7/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 18:07:46] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 18:07:46] - INFO: Backbone sparsity: 0.5378068685531616
+[2023-30-03 18:07:46] - INFO: segment_semantic sparsity: 0.3112143874168396
+[2023-30-03 18:07:46] - INFO: normal sparsity: 0.28928130865097046
+[2023-30-03 18:07:46] - INFO: depth sparsity: 0.28923124074935913
+[2023-30-03 18:07:46] - INFO: overall_sparsity: 0
+[2023-30-03 18:08:06] - INFO: [Iter 13599 Task segm] Val Loss: 1.5844
+[2023-30-03 18:08:06] - INFO: {'mIoU': 0.2147, 'Pixel Acc': 0.5003}
+[2023-30-03 18:08:10] - INFO: [Iter 13599 Task norm] Val Loss: 0.0623
+[2023-30-03 18:08:10] - INFO: {'Angle Mean': 17.7843, 'Angle Median': 16.0626, 'Angle 11.25': 29.7732, 'Angle 22.5': 73.415, 'Angle 30': 86.9983}
+[2023-30-03 18:08:16] - INFO: [Iter 13599 Task dept] Val Loss: 0.5437
+[2023-30-03 18:08:16] - INFO: {'abs_err': 0.5682, 'rel_err': 0.2317, 'sigma_1.25': 62.9989, 'sigma_1.25^2': 88.4036, 'sigma_1.25^3': 96.6732}
+[2023-30-03 18:08:16] - INFO: ======================================================================
+[2023-30-03 18:08:16] - INFO: test score: 1.0795
+[2023-30-03 18:08:28] - INFO: ******* path: /home/tongping/mingcan/github/Pruning/Global_pruning/outputs/mobilenet_1113/finetune//0.8/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 18:08:40] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 18:08:40] - INFO: Backbone sparsity: 0.5375493168830872
+[2023-30-03 18:08:40] - INFO: segment_semantic sparsity: 0.20704449713230133
+[2023-30-03 18:08:40] - INFO: normal sparsity: 0.1888548582792282
+[2023-30-03 18:08:40] - INFO: depth sparsity: 0.18966883420944214
+[2023-30-03 18:08:40] - INFO: overall_sparsity: 0
+[2023-30-03 18:09:00] - INFO: [Iter 16199 Task segm] Val Loss: 1.6048
+[2023-30-03 18:09:00] - INFO: {'mIoU': 0.2221, 'Pixel Acc': 0.5014}
+[2023-30-03 18:09:01] - INFO: [Iter 16199 Task norm] Val Loss: 0.0618
+[2023-30-03 18:09:01] - INFO: {'Angle Mean': 17.679, 'Angle Median': 16.126, 'Angle 11.25': 30.3226, 'Angle 22.5': 72.5087, 'Angle 30': 86.8186}
+[2023-30-03 18:09:05] - INFO: [Iter 16199 Task dept] Val Loss: 0.5563
+[2023-30-03 18:09:05] - INFO: {'abs_err': 0.5771, 'rel_err': 0.2323, 'sigma_1.25': 62.4232, 'sigma_1.25^2': 88.0757, 'sigma_1.25^3': 96.5832}
+[2023-30-03 18:09:05] - INFO: ======================================================================
+[2023-30-03 18:09:05] - INFO: test score: 1.0783
+[2023-30-03 18:09:18] - INFO: ******* path: /home/tongping/mingcan/github/Pruning/Global_pruning/outputs/mobilenet_1113/finetune//0.85/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 18:09:33] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 18:09:33] - INFO: Backbone sparsity: 0.5374228358268738
+[2023-30-03 18:09:33] - INFO: segment_semantic sparsity: 0.154877707362175
+[2023-30-03 18:09:33] - INFO: normal sparsity: 0.13862082362174988
+[2023-30-03 18:09:33] - INFO: depth sparsity: 0.13994064927101135
+[2023-30-03 18:09:33] - INFO: overall_sparsity: 0
+[2023-30-03 18:09:53] - INFO: [Iter 17999 Task segm] Val Loss: 1.6234
+[2023-30-03 18:09:53] - INFO: {'mIoU': 0.2078, 'Pixel Acc': 0.4955}
+[2023-30-03 18:10:00] - INFO: [Iter 17999 Task norm] Val Loss: 0.0616
+[2023-30-03 18:10:00] - INFO: {'Angle Mean': 17.683, 'Angle Median': 16.0468, 'Angle 11.25': 30.5363, 'Angle 22.5': 72.2353, 'Angle 30': 86.7852}
+[2023-30-03 18:10:08] - INFO: [Iter 17999 Task dept] Val Loss: 0.5683
+[2023-30-03 18:10:08] - INFO: {'abs_err': 0.5847, 'rel_err': 0.2271, 'sigma_1.25': 61.6376, 'sigma_1.25^2': 87.8564, 'sigma_1.25^3': 96.6719}
+[2023-30-03 18:10:08] - INFO: ======================================================================
+[2023-30-03 18:10:08] - INFO: test score: 1.0642
+[2023-30-03 18:10:21] - INFO: ******* path: /home/tongping/mingcan/github/Pruning/Global_pruning/outputs/mobilenet_1113/finetune//0.9/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 18:10:30] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 18:10:30] - INFO: Backbone sparsity: 0.5373095870018005
+[2023-30-03 18:10:30] - INFO: segment_semantic sparsity: 0.10272949934005737
+[2023-30-03 18:10:30] - INFO: normal sparsity: 0.08834495395421982
+[2023-30-03 18:10:30] - INFO: depth sparsity: 0.09023367613554001
+[2023-30-03 18:10:30] - INFO: overall_sparsity: 0
+[2023-30-03 18:10:50] - INFO: [Iter 15999 Task segm] Val Loss: 1.6116
+[2023-30-03 18:10:50] - INFO: {'mIoU': 0.2132, 'Pixel Acc': 0.5006}
+[2023-30-03 18:10:52] - INFO: [Iter 15999 Task norm] Val Loss: 0.0626
+[2023-30-03 18:10:52] - INFO: {'Angle Mean': 17.5409, 'Angle Median': 15.5556, 'Angle 11.25': 32.3317, 'Angle 22.5': 72.9874, 'Angle 30': 86.072}
+[2023-30-03 18:10:58] - INFO: [Iter 15999 Task dept] Val Loss: 0.5501
+[2023-30-03 18:10:58] - INFO: {'abs_err': 0.5782, 'rel_err': 0.2411, 'sigma_1.25': 62.1213, 'sigma_1.25^2': 87.8184, 'sigma_1.25^3': 96.3289}
+[2023-30-03 18:10:58] - INFO: ======================================================================
+[2023-30-03 18:10:58] - INFO: test score: 1.0907
+[2023-30-03 18:11:10] - INFO: ******* path: /home/tongping/mingcan/github/Pruning/Global_pruning/outputs/mobilenet_1113/finetune//0.93/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 18:11:21] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 18:11:21] - INFO: Backbone sparsity: 0.5372328162193298
+[2023-30-03 18:11:21] - INFO: segment_semantic sparsity: 0.07143458724021912
+[2023-30-03 18:11:21] - INFO: normal sparsity: 0.05816182121634483
+[2023-30-03 18:11:21] - INFO: depth sparsity: 0.0603550486266613
+[2023-30-03 18:11:21] - INFO: overall_sparsity: 0
+[2023-30-03 18:11:41] - INFO: [Iter 15599 Task segm] Val Loss: 1.5818
+[2023-30-03 18:11:41] - INFO: {'mIoU': 0.2206, 'Pixel Acc': 0.5024}
+[2023-30-03 18:11:42] - INFO: [Iter 15599 Task norm] Val Loss: 0.0610
+[2023-30-03 18:11:42] - INFO: {'Angle Mean': 17.7118, 'Angle Median': 16.2065, 'Angle 11.25': 29.23, 'Angle 22.5': 72.6885, 'Angle 30': 86.9832}
+[2023-30-03 18:11:43] - INFO: [Iter 15599 Task dept] Val Loss: 0.5510
+[2023-30-03 18:11:43] - INFO: {'abs_err': 0.5702, 'rel_err': 0.2324, 'sigma_1.25': 62.5626, 'sigma_1.25^2': 88.5003, 'sigma_1.25^3': 96.7141}
+[2023-30-03 18:11:43] - INFO: ======================================================================
+[2023-30-03 18:11:43] - INFO: test score: 1.0703
+[2023-30-03 18:11:55] - INFO: ******* path: /home/tongping/mingcan/github/Pruning/Global_pruning/outputs/mobilenet_1113/finetune//0.97/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 18:12:11] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 18:12:11] - INFO: Backbone sparsity: 0.49469804763793945
+[2023-30-03 18:12:11] - INFO: segment_semantic sparsity: 0.030953437089920044
+[2023-30-03 18:12:11] - INFO: normal sparsity: 0.01782176084816456
+[2023-30-03 18:12:11] - INFO: depth sparsity: 0.021409450098872185
+[2023-30-03 18:12:11] - INFO: overall_sparsity: 0
+[2023-30-03 18:12:31] - INFO: [Iter 17999 Task segm] Val Loss: 1.6129
+[2023-30-03 18:12:31] - INFO: {'mIoU': 0.2199, 'Pixel Acc': 0.5036}
+[2023-30-03 18:12:33] - INFO: [Iter 17999 Task norm] Val Loss: 0.0612
+[2023-30-03 18:12:33] - INFO: {'Angle Mean': 17.6564, 'Angle Median': 16.01, 'Angle 11.25': 30.378, 'Angle 22.5': 72.262, 'Angle 30': 86.8582}
+[2023-30-03 18:12:39] - INFO: [Iter 17999 Task dept] Val Loss: 0.5613
+[2023-30-03 18:12:39] - INFO: {'abs_err': 0.58, 'rel_err': 0.2305, 'sigma_1.25': 61.9466, 'sigma_1.25^2': 88.1347, 'sigma_1.25^3': 96.6425}
+[2023-30-03 18:12:39] - INFO: ======================================================================
+[2023-30-03 18:12:39] - INFO: test score: 1.0783
+[2023-30-03 18:12:52] - INFO: ******* path: /home/tongping/mingcan/github/Pruning/Global_pruning/outputs/mobilenet_1113/finetune//0.98/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 18:13:03] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 18:13:03] - INFO: Backbone sparsity: 0.30673453211784363
+[2023-30-03 18:13:03] - INFO: segment_semantic sparsity: 0.023212682455778122
+[2023-30-03 18:13:03] - INFO: normal sparsity: 0.010047961957752705
+[2023-30-03 18:13:03] - INFO: depth sparsity: 0.014508317224681377
+[2023-30-03 18:13:03] - INFO: overall_sparsity: 0
+[2023-30-03 18:13:23] - INFO: [Iter 9799 Task segm] Val Loss: 1.6027
+[2023-30-03 18:13:23] - INFO: {'mIoU': 0.208, 'Pixel Acc': 0.4981}
+[2023-30-03 18:13:24] - INFO: [Iter 9799 Task norm] Val Loss: 0.0628
+[2023-30-03 18:13:24] - INFO: {'Angle Mean': 17.4586, 'Angle Median': 15.4945, 'Angle 11.25': 32.8307, 'Angle 22.5': 73.4645, 'Angle 30': 86.1148}
+[2023-30-03 18:13:25] - INFO: [Iter 9799 Task dept] Val Loss: 0.5897
+[2023-30-03 18:13:25] - INFO: {'abs_err': 0.5967, 'rel_err': 0.2329, 'sigma_1.25': 60.3858, 'sigma_1.25^2': 87.1976, 'sigma_1.25^3': 96.394}
+[2023-30-03 18:13:25] - INFO: ======================================================================
+[2023-30-03 18:13:25] - INFO: test score: 1.0855
+[2023-30-03 18:13:37] - INFO: ******* path: /home/tongping/mingcan/github/Pruning/Global_pruning/outputs/mobilenet_1113/finetune//0.99/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 18:13:55] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 18:13:55] - INFO: Backbone sparsity: 0.238538920879364
+[2023-30-03 18:13:55] - INFO: segment_semantic sparsity: 0.012720378115773201
+[2023-30-03 18:13:55] - INFO: normal sparsity: 0.002068939618766308
+[2023-30-03 18:13:55] - INFO: depth sparsity: 0.005463047884404659
+[2023-30-03 18:13:55] - INFO: overall_sparsity: 0
+[2023-30-03 18:14:15] - INFO: [Iter 18999 Task segm] Val Loss: 1.6259
+[2023-30-03 18:14:15] - INFO: {'mIoU': 0.2181, 'Pixel Acc': 0.4988}
+[2023-30-03 18:14:20] - INFO: [Iter 18999 Task norm] Val Loss: 0.0620
+[2023-30-03 18:14:20] - INFO: {'Angle Mean': 17.8522, 'Angle Median': 16.3517, 'Angle 11.25': 29.119, 'Angle 22.5': 71.8222, 'Angle 30': 86.6953}
+[2023-30-03 18:14:31] - INFO: [Iter 18999 Task dept] Val Loss: 0.5518
+[2023-30-03 18:14:31] - INFO: {'abs_err': 0.5716, 'rel_err': 0.2263, 'sigma_1.25': 62.4683, 'sigma_1.25^2': 88.34, 'sigma_1.25^3': 96.8542}
+[2023-30-03 18:14:31] - INFO: ======================================================================
+[2023-30-03 18:14:31] - INFO: test score: 1.062
+[2023-30-03 18:14:43] - INFO: ******* path: /home/tongping/mingcan/github/Pruning/Global_pruning/outputs/mobilenet_1113/finetune//0.995/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 18:14:54] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 18:14:54] - INFO: Backbone sparsity: 0.16397732496261597
+[2023-30-03 18:14:54] - INFO: segment_semantic sparsity: 0.006221007090061903
+[2023-30-03 18:14:54] - INFO: normal sparsity: 0.00023972365306690335
+[2023-30-03 18:14:54] - INFO: depth sparsity: 0.0017608290072530508
+[2023-30-03 18:14:54] - INFO: overall_sparsity: 0
+[2023-30-03 18:15:13] - INFO: [Iter 6799 Task segm] Val Loss: 1.5708
+[2023-30-03 18:15:13] - INFO: {'mIoU': 0.2033, 'Pixel Acc': 0.4857}
+[2023-30-03 18:15:14] - INFO: [Iter 6799 Task norm] Val Loss: 0.0618
+[2023-30-03 18:15:14] - INFO: {'Angle Mean': 17.6789, 'Angle Median': 16.1591, 'Angle 11.25': 28.7289, 'Angle 22.5': 74.5484, 'Angle 30': 87.2537}
+[2023-30-03 18:15:16] - INFO: [Iter 6799 Task dept] Val Loss: 0.5663
+[2023-30-03 18:15:16] - INFO: {'abs_err': 0.5817, 'rel_err': 0.2299, 'sigma_1.25': 61.8852, 'sigma_1.25^2': 88.0399, 'sigma_1.25^3': 96.7137}
+[2023-30-03 18:15:16] - INFO: ======================================================================
+[2023-30-03 18:15:16] - INFO: test score: 1.0457
+[2023-30-03 18:15:28] - INFO: ******* path: /home/tongping/mingcan/github/Pruning/Global_pruning/outputs/mobilenet_1113/finetune//0.999/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 18:15:44] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 18:15:44] - INFO: Backbone sparsity: 0.04451857507228851
+[2023-30-03 18:15:44] - INFO: segment_semantic sparsity: 0.0010340278968214989
+[2023-30-03 18:15:44] - INFO: normal sparsity: 8.950720257416833e-06
+[2023-30-03 18:15:44] - INFO: depth sparsity: 0.00010252154606860131
+[2023-30-03 18:15:44] - INFO: overall_sparsity: 0
+[2023-30-03 18:16:03] - INFO: [Iter 11199 Task segm] Val Loss: 1.6363
+[2023-30-03 18:16:03] - INFO: {'mIoU': 0.1822, 'Pixel Acc': 0.4848}
+[2023-30-03 18:16:05] - INFO: [Iter 11199 Task norm] Val Loss: 0.0704
+[2023-30-03 18:16:05] - INFO: {'Angle Mean': 19.9366, 'Angle Median': 17.8463, 'Angle 11.25': 10.423, 'Angle 22.5': 73.928, 'Angle 30': 87.6819}
+[2023-30-03 18:16:05] - INFO: [Iter 11199 Task dept] Val Loss: 0.6440
+[2023-30-03 18:16:05] - INFO: {'abs_err': 0.6444, 'rel_err': 0.252, 'sigma_1.25': 57.5744, 'sigma_1.25^2': 85.1513, 'sigma_1.25^3': 95.2714}
+[2023-30-03 18:16:05] - INFO: ======================================================================
+[2023-30-03 18:16:05] - INFO: test score: 0.6291

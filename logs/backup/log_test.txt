@@ -1,0 +1,264 @@
+python test.py --path outputs/all_shared_mobilenetv2/finetune/0.1/best_segment_semantic_normal_depth_zbuffer.model
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+******* path:  all_shared_mobilenetv2/finetune/0.1/best_segment_semantic_normal_depth_zbuffer.model
+total_conv:  2189760
+conv_nonzero:  tensor(1969804., device='cuda:0')
+======================================================================
+total_conv:  51544064
+conv_nonzero:  tensor(51542668., device='cuda:0')
+======================================================================
+total_conv:  51392512
+conv_nonzero:  tensor(51391144., device='cuda:0')
+======================================================================
+total_conv:  51384320
+conv_nonzero:  tensor(51383112., device='cuda:0')
+======================================================================
+[Iter 13599 Task segm] Val Loss: 1.6248
+{'mIoU': 0.2141, 'Pixel Acc': 0.4982}
+[Iter 13599 Task norm] Val Loss: 0.0607
+{'Angle Mean': 17.6251, 'Angle Median': 16.2315, 'Angle 11.25': 30.3812, 'Angle 22.5': 71.8173, 'Angle 30': 87.0748}
+[Iter 13599 Task dept] Val Loss: 0.5628
+{'abs_err': 0.5813, 'rel_err': 0.2288, 'sigma_1.25': 61.7589, 'sigma_1.25^2': 88.2143, 'sigma_1.25^3': 96.8756}
+======================================================================
+test score:  0.997
+python test.py --path outputs/all_shared_mobilenetv2/finetune/0.2/best_segment_semantic_normal_depth_zbuffer.model
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+******* path:  all_shared_mobilenetv2/finetune/0.2/best_segment_semantic_normal_depth_zbuffer.model
+total_conv:  2189760
+conv_nonzero:  tensor(1751741., device='cuda:0')
+======================================================================
+total_conv:  51544064
+conv_nonzero:  tensor(51542668., device='cuda:0')
+======================================================================
+total_conv:  51392512
+conv_nonzero:  tensor(51391108., device='cuda:0')
+======================================================================
+total_conv:  51384320
+conv_nonzero:  tensor(51383116., device='cuda:0')
+======================================================================
+[Iter 9599 Task segm] Val Loss: 1.5820
+{'mIoU': 0.2082, 'Pixel Acc': 0.495}
+[Iter 9599 Task norm] Val Loss: 0.0610
+{'Angle Mean': 17.5128, 'Angle Median': 15.945, 'Angle 11.25': 30.011, 'Angle 22.5': 74.511, 'Angle 30': 87.067}
+[Iter 9599 Task dept] Val Loss: 0.5895
+{'abs_err': 0.5981, 'rel_err': 0.2312, 'sigma_1.25': 60.7887, 'sigma_1.25^2': 87.2924, 'sigma_1.25^3': 96.4648}
+======================================================================
+test score:  0.9854
+python test.py --path outputs/all_shared_mobilenetv2/finetune/0.3/best_segment_semantic_normal_depth_zbuffer.model
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+******* path:  all_shared_mobilenetv2/finetune/0.3/best_segment_semantic_normal_depth_zbuffer.model
+total_conv:  2189760
+conv_nonzero:  tensor(1531721., device='cuda:0')
+======================================================================
+total_conv:  51544064
+conv_nonzero:  tensor(51542688., device='cuda:0')
+======================================================================
+total_conv:  51392512
+conv_nonzero:  tensor(51391080., device='cuda:0')
+======================================================================
+total_conv:  51384320
+conv_nonzero:  tensor(51383112., device='cuda:0')
+======================================================================
+[Iter 13999 Task segm] Val Loss: 1.6159
+{'mIoU': 0.2129, 'Pixel Acc': 0.4956}
+[Iter 13999 Task norm] Val Loss: 0.0609
+{'Angle Mean': 17.7001, 'Angle Median': 16.2315, 'Angle 11.25': 29.1197, 'Angle 22.5': 72.7506, 'Angle 30': 87.2217}
+[Iter 13999 Task dept] Val Loss: 0.5560
+{'abs_err': 0.5754, 'rel_err': 0.229, 'sigma_1.25': 62.4301, 'sigma_1.25^2': 88.3199, 'sigma_1.25^3': 96.829}
+======================================================================
+test score:  0.9917
+python test.py --path outputs/all_shared_mobilenetv2/finetune/0.4/best_segment_semantic_normal_depth_zbuffer.model
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+******* path:  all_shared_mobilenetv2/finetune/0.4/best_segment_semantic_normal_depth_zbuffer.model
+total_conv:  2189760
+conv_nonzero:  tensor(1312643., device='cuda:0')
+======================================================================
+total_conv:  51544064
+conv_nonzero:  tensor(51542672., device='cuda:0')
+======================================================================
+total_conv:  51392512
+conv_nonzero:  tensor(51391148., device='cuda:0')
+======================================================================
+total_conv:  51384320
+conv_nonzero:  tensor(51383108., device='cuda:0')
+======================================================================
+[Iter 14799 Task segm] Val Loss: 1.5859
+{'mIoU': 0.2171, 'Pixel Acc': 0.503}
+[Iter 14799 Task norm] Val Loss: 0.0631
+{'Angle Mean': 17.6538, 'Angle Median': 15.9203, 'Angle 11.25': 32.02, 'Angle 22.5': 72.0456, 'Angle 30': 86.2521}
+[Iter 14799 Task dept] Val Loss: 0.5746
+{'abs_err': 0.5912, 'rel_err': 0.2322, 'sigma_1.25': 61.3429, 'sigma_1.25^2': 87.4205, 'sigma_1.25^3': 96.451}
+======================================================================
+test score:  1.0053
+python test.py --path outputs/all_shared_mobilenetv2/finetune/0.5/best_segment_semantic_normal_depth_zbuffer.model
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+******* path:  all_shared_mobilenetv2/finetune/0.5/best_segment_semantic_normal_depth_zbuffer.model
+total_conv:  2189760
+conv_nonzero:  tensor(1094838., device='cuda:0')
+======================================================================
+total_conv:  51544064
+conv_nonzero:  tensor(51542688., device='cuda:0')
+======================================================================
+total_conv:  51392512
+conv_nonzero:  tensor(51391120., device='cuda:0')
+======================================================================
+total_conv:  51384320
+conv_nonzero:  tensor(51383096., device='cuda:0')
+======================================================================
+[Iter 14599 Task segm] Val Loss: 1.6452
+{'mIoU': 0.2071, 'Pixel Acc': 0.4954}
+[Iter 14599 Task norm] Val Loss: 0.0638
+{'Angle Mean': 17.6929, 'Angle Median': 15.8082, 'Angle 11.25': 31.9769, 'Angle 22.5': 72.438, 'Angle 30': 86.1412}
+[Iter 14599 Task dept] Val Loss: 0.5606
+{'abs_err': 0.5814, 'rel_err': 0.2339, 'sigma_1.25': 62.066, 'sigma_1.25^2': 87.8936, 'sigma_1.25^3': 96.4642}
+======================================================================
+test score:  1.0084
+python test.py --path outputs/all_shared_mobilenetv2/finetune/0.6/best_segment_semantic_normal_depth_zbuffer.model
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+******* path:  all_shared_mobilenetv2/finetune/0.6/best_segment_semantic_normal_depth_zbuffer.model
+total_conv:  2189760
+conv_nonzero:  tensor(875878., device='cuda:0')
+======================================================================
+total_conv:  51544064
+conv_nonzero:  tensor(51542668., device='cuda:0')
+======================================================================
+total_conv:  51392512
+conv_nonzero:  tensor(51391112., device='cuda:0')
+======================================================================
+total_conv:  51384320
+conv_nonzero:  tensor(51383100., device='cuda:0')
+======================================================================
+[Iter 13999 Task segm] Val Loss: 1.6549
+{'mIoU': 0.212, 'Pixel Acc': 0.4929}
+[Iter 13999 Task norm] Val Loss: 0.0619
+{'Angle Mean': 17.6767, 'Angle Median': 16.1732, 'Angle 11.25': 30.9376, 'Angle 22.5': 71.3552, 'Angle 30': 86.7461}
+[Iter 13999 Task dept] Val Loss: 0.5551
+{'abs_err': 0.5754, 'rel_err': 0.2305, 'sigma_1.25': 62.3949, 'sigma_1.25^2': 88.0457, 'sigma_1.25^3': 96.6081}
+======================================================================
+test score:  1.0002
+python test.py --path outputs/all_shared_mobilenetv2/finetune/0.7/best_segment_semantic_normal_depth_zbuffer.model
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+******* path:  all_shared_mobilenetv2/finetune/0.7/best_segment_semantic_normal_depth_zbuffer.model
+total_conv:  2189760
+conv_nonzero:  tensor(656923., device='cuda:0')
+======================================================================
+total_conv:  51544064
+conv_nonzero:  tensor(51542672., device='cuda:0')
+======================================================================
+total_conv:  51392512
+conv_nonzero:  tensor(51391116., device='cuda:0')
+======================================================================
+total_conv:  51384320
+conv_nonzero:  tensor(51383136., device='cuda:0')
+======================================================================
+[Iter 9399 Task segm] Val Loss: 1.5752
+{'mIoU': 0.2134, 'Pixel Acc': 0.4938}
+[Iter 9399 Task norm] Val Loss: 0.0622
+{'Angle Mean': 17.7307, 'Angle Median': 15.9429, 'Angle 11.25': 29.0141, 'Angle 22.5': 75.0072, 'Angle 30': 87.033}
+[Iter 9399 Task dept] Val Loss: 0.5646
+{'abs_err': 0.5786, 'rel_err': 0.2314, 'sigma_1.25': 61.7015, 'sigma_1.25^2': 88.086, 'sigma_1.25^3': 96.6697}
+======================================================================
+test score:  0.9945
+python test.py --path outputs/all_shared_mobilenetv2/finetune/0.8/best_segment_semantic_normal_depth_zbuffer.model
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+******* path:  all_shared_mobilenetv2/finetune/0.8/best_segment_semantic_normal_depth_zbuffer.model
+total_conv:  2189760
+conv_nonzero:  tensor(437951., device='cuda:0')
+======================================================================
+total_conv:  51544064
+conv_nonzero:  tensor(51542696., device='cuda:0')
+======================================================================
+total_conv:  51392512
+conv_nonzero:  tensor(51391128., device='cuda:0')
+======================================================================
+total_conv:  51384320
+conv_nonzero:  tensor(51383104., device='cuda:0')
+======================================================================
+[Iter 12199 Task segm] Val Loss: 1.5965
+{'mIoU': 0.2151, 'Pixel Acc': 0.4938}
+[Iter 12199 Task norm] Val Loss: 0.0621
+{'Angle Mean': 17.6739, 'Angle Median': 15.8546, 'Angle 11.25': 30.6869, 'Angle 22.5': 73.2339, 'Angle 30': 86.6432}
+[Iter 12199 Task dept] Val Loss: 0.5534
+{'abs_err': 0.5746, 'rel_err': 0.2317, 'sigma_1.25': 62.4482, 'sigma_1.25^2': 88.213, 'sigma_1.25^3': 96.684}
+======================================================================
+test score:  1.0143
+python test.py --path outputs/all_shared_mobilenetv2/finetune/0.9/best_segment_semantic_normal_depth_zbuffer.model
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+******* path:  all_shared_mobilenetv2/finetune/0.9/best_segment_semantic_normal_depth_zbuffer.model
+total_conv:  2189760
+conv_nonzero:  tensor(218975., device='cuda:0')
+======================================================================
+total_conv:  51544064
+conv_nonzero:  tensor(51542688., device='cuda:0')
+======================================================================
+total_conv:  51392512
+conv_nonzero:  tensor(51391180., device='cuda:0')
+======================================================================
+total_conv:  51384320
+conv_nonzero:  tensor(51383112., device='cuda:0')
+======================================================================
+[Iter 6799 Task segm] Val Loss: 1.6004
+{'mIoU': 0.203, 'Pixel Acc': 0.4896}
+[Iter 6799 Task norm] Val Loss: 0.0627
+{'Angle Mean': 17.6056, 'Angle Median': 15.4145, 'Angle 11.25': 30.8705, 'Angle 22.5': 74.5619, 'Angle 30': 86.3574}
+[Iter 6799 Task dept] Val Loss: 0.6172
+{'abs_err': 0.6187, 'rel_err': 0.2317, 'sigma_1.25': 59.4174, 'sigma_1.25^2': 86.6669, 'sigma_1.25^3': 96.2076}
+======================================================================
+test score:  0.9739
+python test.py --path outputs/all_shared_mobilenetv2/finetune/0.95/best_segment_semantic_normal_depth_zbuffer.model
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+******* path:  all_shared_mobilenetv2/finetune/0.95/best_segment_semantic_normal_depth_zbuffer.model
+total_conv:  2189760
+conv_nonzero:  tensor(109487., device='cuda:0')
+======================================================================
+total_conv:  51544064
+conv_nonzero:  tensor(51542696., device='cuda:0')
+======================================================================
+total_conv:  51392512
+conv_nonzero:  tensor(51391152., device='cuda:0')
+======================================================================
+total_conv:  51384320
+conv_nonzero:  tensor(51383132., device='cuda:0')
+======================================================================
+[Iter 12799 Task segm] Val Loss: 1.5857
+{'mIoU': 0.2019, 'Pixel Acc': 0.4934}
+[Iter 12799 Task norm] Val Loss: 0.0613
+{'Angle Mean': 17.6379, 'Angle Median': 15.9662, 'Angle 11.25': 29.8712, 'Angle 22.5': 73.8072, 'Angle 30': 86.9249}
+[Iter 12799 Task dept] Val Loss: 0.5750
+{'abs_err': 0.5871, 'rel_err': 0.2336, 'sigma_1.25': 61.9141, 'sigma_1.25^2': 87.5007, 'sigma_1.25^3': 96.3836}
+======================================================================
+test score:  0.9825
+python test.py --path outputs/all_shared_mobilenetv2/finetune/0.99/best_segment_semantic_normal_depth_zbuffer.model
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+******* path:  all_shared_mobilenetv2/finetune/0.99/best_segment_semantic_normal_depth_zbuffer.model
+total_conv:  2189760
+conv_nonzero:  tensor(21895., device='cuda:0')
+======================================================================
+total_conv:  51544064
+conv_nonzero:  tensor(51542624., device='cuda:0')
+======================================================================
+total_conv:  51392512
+conv_nonzero:  tensor(51391112., device='cuda:0')
+======================================================================
+total_conv:  51384320
+conv_nonzero:  tensor(51383092., device='cuda:0')
+======================================================================
+[Iter 13999 Task segm] Val Loss: 1.8889
+{'mIoU': 0.1371, 'Pixel Acc': 0.4373}
+[Iter 13999 Task norm] Val Loss: 0.0626
+{'Angle Mean': 17.8295, 'Angle Median': 16.447, 'Angle 11.25': 27.944, 'Angle 22.5': 73.7071, 'Angle 30': 87.0073}
+[Iter 13999 Task dept] Val Loss: 0.6561
+{'abs_err': 0.6606, 'rel_err': 0.2672, 'sigma_1.25': 56.0742, 'sigma_1.25^2': 83.6455, 'sigma_1.25^3': 94.5592}
+======================================================================
+test score:  0.7478

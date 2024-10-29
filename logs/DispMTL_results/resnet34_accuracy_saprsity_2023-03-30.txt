@@ -1,0 +1,384 @@
+[2023-30-03 12:15:30] - INFO: ******* path: outputs/unity/resnet34_accuracy_sparsity//baseline_minus15_decay0.00000005_weighted_loss_sliding_windows/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 12:15:31] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 12:15:33] - INFO: Backbone sparsity: 0.44
+[2023-30-03 12:15:33] - INFO: segment_semantic sparsity: 0.48
+[2023-30-03 12:15:33] - INFO: normal sparsity: 27.34
+[2023-30-03 12:15:33] - INFO: depth sparsity: 0.48
+[2023-30-03 12:15:33] - INFO: overall_sparsity: 7.31
+[2023-30-03 12:15:33] - INFO: ======================================================================
+[2023-30-03 12:16:30] - INFO: [Iter 13399 Task segm] Val Loss: 1.6740
+[2023-30-03 12:16:30] - INFO: {'mIoU': 0.2394, 'Pixel Acc': 0.5626}
+[2023-30-03 12:16:31] - INFO: [Iter 13399 Task norm] Val Loss: 0.0672
+[2023-30-03 12:16:31] - INFO: {'Angle Mean': 17.4278, 'Angle Median': 14.6956, 'Angle 11.25': 38.0577, 'Angle 22.5': 71.138, 'Angle 30': 83.8269}
+[2023-30-03 12:16:32] - INFO: [Iter 13399 Task dept] Val Loss: 0.5691
+[2023-30-03 12:16:32] - INFO: {'abs_err': 0.5679, 'rel_err': 0.2252, 'sigma_1.25': 63.1369, 'sigma_1.25^2': 88.8287, 'sigma_1.25^3': 97.1513}
+[2023-30-03 12:16:32] - INFO: ======================================================================
+[2023-30-03 12:16:32] - INFO: test score: 0.9597
+[2023-30-03 12:16:44] - INFO: ******* path: outputs/unity/resnet34_accuracy_sparsity//baseline_minus15_decay0.0000001_weighted_loss_sliding_windows/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 12:16:51] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 12:16:52] - INFO: Backbone sparsity: 3.8
+[2023-30-03 12:16:52] - INFO: segment_semantic sparsity: 3.2
+[2023-30-03 12:16:52] - INFO: normal sparsity: 53.19
+[2023-30-03 12:16:52] - INFO: depth sparsity: 1.61
+[2023-30-03 12:16:52] - INFO: overall_sparsity: 15.66
+[2023-30-03 12:16:52] - INFO: ======================================================================
+[2023-30-03 12:17:49] - INFO: [Iter 18199 Task segm] Val Loss: 1.7711
+[2023-30-03 12:17:49] - INFO: {'mIoU': 0.2446, 'Pixel Acc': 0.5667}
+[2023-30-03 12:17:50] - INFO: [Iter 18199 Task norm] Val Loss: 0.0684
+[2023-30-03 12:17:50] - INFO: {'Angle Mean': 17.3943, 'Angle Median': 14.2729, 'Angle 11.25': 39.6578, 'Angle 22.5': 71.3974, 'Angle 30': 83.3021}
+[2023-30-03 12:17:53] - INFO: [Iter 18199 Task dept] Val Loss: 0.5562
+[2023-30-03 12:17:53] - INFO: {'abs_err': 0.5565, 'rel_err': 0.2233, 'sigma_1.25': 64.1211, 'sigma_1.25^2': 89.4993, 'sigma_1.25^3': 97.2617}
+[2023-30-03 12:17:53] - INFO: ======================================================================
+[2023-30-03 12:17:53] - INFO: test score: 1.0059
+[2023-30-03 12:18:05] - INFO: ******* path: outputs/unity/resnet34_accuracy_sparsity//baseline_minus15_decay0.0000005_weighted_loss_sliding_windows/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 12:18:12] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 12:18:14] - INFO: Backbone sparsity: 12.97
+[2023-30-03 12:18:14] - INFO: segment_semantic sparsity: 21.89
+[2023-30-03 12:18:14] - INFO: normal sparsity: 81.9
+[2023-30-03 12:18:14] - INFO: depth sparsity: 14.98
+[2023-30-03 12:18:14] - INFO: overall_sparsity: 33.32
+[2023-30-03 12:18:14] - INFO: ======================================================================
+[2023-30-03 12:19:13] - INFO: [Iter 17199 Task segm] Val Loss: 1.7233
+[2023-30-03 12:19:13] - INFO: {'mIoU': 0.2518, 'Pixel Acc': 0.5738}
+[2023-30-03 12:19:14] - INFO: [Iter 17199 Task norm] Val Loss: 0.0685
+[2023-30-03 12:19:14] - INFO: {'Angle Mean': 17.3432, 'Angle Median': 14.0692, 'Angle 11.25': 40.4203, 'Angle 22.5': 71.4073, 'Angle 30': 83.1035}
+[2023-30-03 12:19:15] - INFO: [Iter 17199 Task dept] Val Loss: 0.5591
+[2023-30-03 12:19:15] - INFO: {'abs_err': 0.5605, 'rel_err': 0.2308, 'sigma_1.25': 63.3553, 'sigma_1.25^2': 89.0918, 'sigma_1.25^3': 97.1397}
+[2023-30-03 12:19:15] - INFO: ======================================================================
+[2023-30-03 12:19:15] - INFO: test score: 1.0045
+[2023-30-03 12:19:28] - INFO: ******* path: outputs/unity/resnet34_accuracy_sparsity//baseline_minus15_decay0.000001_weighted_loss_sliding_windows/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 12:19:37] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 12:19:38] - INFO: Backbone sparsity: 17.93
+[2023-30-03 12:19:38] - INFO: segment_semantic sparsity: 32.57
+[2023-30-03 12:19:38] - INFO: normal sparsity: 88.31
+[2023-30-03 12:19:38] - INFO: depth sparsity: 24.25
+[2023-30-03 12:19:38] - INFO: overall_sparsity: 41.21
+[2023-30-03 12:19:38] - INFO: ======================================================================
+[2023-30-03 12:20:33] - INFO: [Iter 15599 Task segm] Val Loss: 1.6164
+[2023-30-03 12:20:33] - INFO: {'mIoU': 0.2625, 'Pixel Acc': 0.579}
+[2023-30-03 12:20:34] - INFO: [Iter 15599 Task norm] Val Loss: 0.0681
+[2023-30-03 12:20:34] - INFO: {'Angle Mean': 17.3394, 'Angle Median': 14.2133, 'Angle 11.25': 39.973, 'Angle 22.5': 71.4829, 'Angle 30': 83.3805}
+[2023-30-03 12:20:37] - INFO: [Iter 15599 Task dept] Val Loss: 0.5639
+[2023-30-03 12:20:37] - INFO: {'abs_err': 0.5617, 'rel_err': 0.2222, 'sigma_1.25': 63.6265, 'sigma_1.25^2': 89.4105, 'sigma_1.25^3': 97.4847}
+[2023-30-03 12:20:37] - INFO: ======================================================================
+[2023-30-03 12:20:37] - INFO: test score: 1.0237
+[2023-30-03 12:20:50] - INFO: ******* path: outputs/unity/resnet34_accuracy_sparsity//baseline_minus15_decay0.000005_weighted_loss_sliding_windows/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 12:21:01] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 12:21:02] - INFO: Backbone sparsity: 29.25
+[2023-30-03 12:21:02] - INFO: segment_semantic sparsity: 64.99
+[2023-30-03 12:21:02] - INFO: normal sparsity: 97.2
+[2023-30-03 12:21:02] - INFO: depth sparsity: 62.19
+[2023-30-03 12:21:02] - INFO: overall_sparsity: 64.1
+[2023-30-03 12:21:02] - INFO: ======================================================================
+[2023-30-03 12:22:02] - INFO: [Iter 14999 Task segm] Val Loss: 1.7826
+[2023-30-03 12:22:02] - INFO: {'mIoU': 0.2325, 'Pixel Acc': 0.551}
+[2023-30-03 12:22:03] - INFO: [Iter 14999 Task norm] Val Loss: 0.0673
+[2023-30-03 12:22:03] - INFO: {'Angle Mean': 17.4424, 'Angle Median': 14.7513, 'Angle 11.25': 37.7073, 'Angle 22.5': 71.2771, 'Angle 30': 83.8654}
+[2023-30-03 12:22:05] - INFO: [Iter 14999 Task dept] Val Loss: 0.5772
+[2023-30-03 12:22:05] - INFO: {'abs_err': 0.5778, 'rel_err': 0.2386, 'sigma_1.25': 62.1852, 'sigma_1.25^2': 88.3822, 'sigma_1.25^3': 96.8457}
+[2023-30-03 12:22:05] - INFO: ======================================================================
+[2023-30-03 12:22:05] - INFO: test score: 0.9135
+[2023-30-03 12:22:18] - INFO: ******* path: outputs/unity/resnet34_accuracy_sparsity//baseline_minus15_decay0.00001_weighted_loss_sliding_windows/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 12:22:25] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 12:22:26] - INFO: Backbone sparsity: 40.42
+[2023-30-03 12:22:26] - INFO: segment_semantic sparsity: 76.06
+[2023-30-03 12:22:26] - INFO: normal sparsity: 98.77
+[2023-30-03 12:22:26] - INFO: depth sparsity: 80.14
+[2023-30-03 12:22:26] - INFO: overall_sparsity: 74.52
+[2023-30-03 12:22:26] - INFO: ======================================================================
+[2023-30-03 12:23:15] - INFO: [Iter 19599 Task segm] Val Loss: 1.8907
+[2023-30-03 12:23:15] - INFO: {'mIoU': 0.2459, 'Pixel Acc': 0.5682}
+[2023-30-03 12:23:16] - INFO: [Iter 19599 Task norm] Val Loss: 0.0653
+[2023-30-03 12:23:16] - INFO: {'Angle Mean': 17.2147, 'Angle Median': 14.701, 'Angle 11.25': 37.7612, 'Angle 22.5': 71.8232, 'Angle 30': 84.5732}
+[2023-30-03 12:23:22] - INFO: [Iter 19599 Task dept] Val Loss: 0.5710
+[2023-30-03 12:23:22] - INFO: {'abs_err': 0.5728, 'rel_err': 0.2393, 'sigma_1.25': 62.5163, 'sigma_1.25^2': 88.4277, 'sigma_1.25^3': 96.8468}
+[2023-30-03 12:23:22] - INFO: ======================================================================
+[2023-30-03 12:23:22] - INFO: test score: 0.9424
+[2023-30-03 12:26:24] - INFO: ******* path: outputs/unity/resnet34_0316//baseline_minus15_decay0.00000005_weighted_loss_sliding_windows/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 12:26:31] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 12:26:31] - INFO: Backbone sparsity: 0.17
+[2023-30-03 12:26:31] - INFO: segment_semantic sparsity: 0.25
+[2023-30-03 12:26:31] - INFO: normal sparsity: 7.09
+[2023-30-03 12:26:31] - INFO: depth sparsity: 0.09
+[2023-30-03 12:26:31] - INFO: overall_sparsity: 1.93
+[2023-30-03 12:26:31] - INFO: ======================================================================
+[2023-30-03 12:27:32] - INFO: [Iter 11799 Task segm] Val Loss: 1.6287
+[2023-30-03 12:27:32] - INFO: {'mIoU': 0.2415, 'Pixel Acc': 0.5632}
+[2023-30-03 12:27:45] - INFO: [Iter 11799 Task norm] Val Loss: 0.0656
+[2023-30-03 12:27:45] - INFO: {'Angle Mean': 17.1253, 'Angle Median': 14.2202, 'Angle 11.25': 39.4527, 'Angle 22.5': 72.4536, 'Angle 30': 84.2355}
+[2023-30-03 12:28:11] - INFO: [Iter 11799 Task dept] Val Loss: 0.5558
+[2023-30-03 12:28:11] - INFO: {'abs_err': 0.5549, 'rel_err': 0.2146, 'sigma_1.25': 64.2574, 'sigma_1.25^2': 89.8327, 'sigma_1.25^3': 97.379}
+[2023-30-03 12:28:11] - INFO: ======================================================================
+[2023-30-03 12:28:11] - INFO: test score: 1.0326
+[2023-30-03 12:28:24] - INFO: ******* path: outputs/unity/resnet34_0316//baseline_minus15_decay0.0000001_weighted_loss_sliding_windows/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 12:28:32] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 12:28:33] - INFO: Backbone sparsity: 4.08
+[2023-30-03 12:28:33] - INFO: segment_semantic sparsity: 9.95
+[2023-30-03 12:28:33] - INFO: normal sparsity: 48.59
+[2023-30-03 12:28:33] - INFO: depth sparsity: 2.87
+[2023-30-03 12:28:33] - INFO: overall_sparsity: 16.61
+[2023-30-03 12:28:33] - INFO: ======================================================================
+[2023-30-03 12:29:39] - INFO: [Iter 28999 Task segm] Val Loss: 1.6462
+[2023-30-03 12:29:39] - INFO: {'mIoU': 0.2786, 'Pixel Acc': 0.5936}
+[2023-30-03 12:29:41] - INFO: [Iter 28999 Task norm] Val Loss: 0.0698
+[2023-30-03 12:29:41] - INFO: {'Angle Mean': 17.4408, 'Angle Median': 14.2319, 'Angle 11.25': 40.4641, 'Angle 22.5': 70.605, 'Angle 30': 82.5822}
+[2023-30-03 12:29:42] - INFO: [Iter 28999 Task dept] Val Loss: 0.5369
+[2023-30-03 12:29:42] - INFO: {'abs_err': 0.5367, 'rel_err': 0.2158, 'sigma_1.25': 65.6461, 'sigma_1.25^2': 90.1694, 'sigma_1.25^3': 97.5249}
+[2023-30-03 12:29:42] - INFO: ======================================================================
+[2023-30-03 12:29:42] - INFO: test score: 1.0718
+[2023-30-03 12:29:54] - INFO: ******* path: outputs/unity/resnet34_0316//baseline_minus15_decay0.0000005_weighted_loss_sliding_windows/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 12:30:02] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 12:30:03] - INFO: Backbone sparsity: 5.66
+[2023-30-03 12:30:03] - INFO: segment_semantic sparsity: 25.55
+[2023-30-03 12:30:03] - INFO: normal sparsity: 68.75
+[2023-30-03 12:30:03] - INFO: depth sparsity: 20.42
+[2023-30-03 12:30:03] - INFO: overall_sparsity: 30.58
+[2023-30-03 12:30:03] - INFO: ======================================================================
+[2023-30-03 12:30:58] - INFO: [Iter 20599 Task segm] Val Loss: 1.7988
+[2023-30-03 12:30:58] - INFO: {'mIoU': 0.2326, 'Pixel Acc': 0.554}
+[2023-30-03 12:30:59] - INFO: [Iter 20599 Task norm] Val Loss: 0.0689
+[2023-30-03 12:30:59] - INFO: {'Angle Mean': 17.4723, 'Angle Median': 14.4321, 'Angle 11.25': 39.4215, 'Angle 22.5': 70.6818, 'Angle 30': 82.9803}
+[2023-30-03 12:31:01] - INFO: [Iter 20599 Task dept] Val Loss: 0.5830
+[2023-30-03 12:31:01] - INFO: {'abs_err': 0.5848, 'rel_err': 0.2443, 'sigma_1.25': 61.0363, 'sigma_1.25^2': 88.0408, 'sigma_1.25^3': 96.8476}
+[2023-30-03 12:31:01] - INFO: ======================================================================
+[2023-30-03 12:31:01] - INFO: test score: 0.9102
+[2023-30-03 12:31:13] - INFO: ******* path: outputs/unity/resnet34_0316//baseline_minus15_decay0.000001_weighted_loss_sliding_windows/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 12:31:22] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 12:31:22] - INFO: Backbone sparsity: 7.59
+[2023-30-03 12:31:22] - INFO: segment_semantic sparsity: 34.05
+[2023-30-03 12:31:22] - INFO: normal sparsity: 76.54
+[2023-30-03 12:31:22] - INFO: depth sparsity: 30.49
+[2023-30-03 12:31:22] - INFO: overall_sparsity: 37.75
+[2023-30-03 12:31:22] - INFO: ======================================================================
+[2023-30-03 12:32:21] - INFO: [Iter 20399 Task segm] Val Loss: 1.7379
+[2023-30-03 12:32:21] - INFO: {'mIoU': 0.2556, 'Pixel Acc': 0.5782}
+[2023-30-03 12:32:22] - INFO: [Iter 20399 Task norm] Val Loss: 0.0690
+[2023-30-03 12:32:22] - INFO: {'Angle Mean': 17.3775, 'Angle Median': 14.2971, 'Angle 11.25': 40.3009, 'Angle 22.5': 70.5355, 'Angle 30': 82.832}
+[2023-30-03 12:32:23] - INFO: [Iter 20399 Task dept] Val Loss: 0.5471
+[2023-30-03 12:32:23] - INFO: {'abs_err': 0.5473, 'rel_err': 0.2205, 'sigma_1.25': 64.5472, 'sigma_1.25^2': 89.8114, 'sigma_1.25^3': 97.4891}
+[2023-30-03 12:32:23] - INFO: ======================================================================
+[2023-30-03 12:32:23] - INFO: test score: 1.0303
+[2023-30-03 12:32:39] - INFO: ******* path: outputs/unity/resnet34_0316//baseline_minus15_decay0.000005_weighted_loss_sliding_windows/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 12:32:50] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 12:32:52] - INFO: Backbone sparsity: 5.08
+[2023-30-03 12:32:52] - INFO: segment_semantic sparsity: 48.85
+[2023-30-03 12:32:52] - INFO: normal sparsity: 81.88
+[2023-30-03 12:32:52] - INFO: depth sparsity: 46.47
+[2023-30-03 12:32:52] - INFO: overall_sparsity: 46.38
+[2023-30-03 12:32:52] - INFO: ======================================================================
+[2023-30-03 12:33:56] - INFO: [Iter 12799 Task segm] Val Loss: 1.6547
+[2023-30-03 12:33:56] - INFO: {'mIoU': 0.2389, 'Pixel Acc': 0.5626}
+[2023-30-03 12:34:05] - INFO: [Iter 12799 Task norm] Val Loss: 0.0677
+[2023-30-03 12:34:05] - INFO: {'Angle Mean': 17.4991, 'Angle Median': 14.8793, 'Angle 11.25': 37.6028, 'Angle 22.5': 70.6241, 'Angle 30': 83.4831}
+[2023-30-03 12:34:13] - INFO: [Iter 12799 Task dept] Val Loss: 0.5467
+[2023-30-03 12:34:13] - INFO: {'abs_err': 0.5457, 'rel_err': 0.2183, 'sigma_1.25': 64.7401, 'sigma_1.25^2': 89.8984, 'sigma_1.25^3': 97.396}
+[2023-30-03 12:34:13] - INFO: ======================================================================
+[2023-30-03 12:34:13] - INFO: test score: 0.9831
+[2023-30-03 12:34:27] - INFO: ******* path: outputs/unity/resnet34_0316//baseline_minus15_decay0.00002_weighted_loss_sliding_windows/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 12:34:43] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 12:34:44] - INFO: Backbone sparsity: 27.98
+[2023-30-03 12:34:44] - INFO: segment_semantic sparsity: 75.6
+[2023-30-03 12:34:44] - INFO: normal sparsity: 97.25
+[2023-30-03 12:34:44] - INFO: depth sparsity: 84.4
+[2023-30-03 12:34:44] - INFO: overall_sparsity: 72.18
+[2023-30-03 12:34:44] - INFO: ======================================================================
+[2023-30-03 12:35:41] - INFO: [Iter 19599 Task segm] Val Loss: 1.8731
+[2023-30-03 12:35:41] - INFO: {'mIoU': 0.2288, 'Pixel Acc': 0.549}
+[2023-30-03 12:35:42] - INFO: [Iter 19599 Task norm] Val Loss: 0.0652
+[2023-30-03 12:35:42] - INFO: {'Angle Mean': 17.2766, 'Angle Median': 14.5385, 'Angle 11.25': 37.5623, 'Angle 22.5': 72.6817, 'Angle 30': 84.8412}
+[2023-30-03 12:35:43] - INFO: [Iter 19599 Task dept] Val Loss: 0.5855
+[2023-30-03 12:35:43] - INFO: {'abs_err': 0.5846, 'rel_err': 0.235, 'sigma_1.25': 61.5172, 'sigma_1.25^2': 88.2059, 'sigma_1.25^3': 96.8724}
+[2023-30-03 12:35:43] - INFO: ======================================================================
+[2023-30-03 12:35:43] - INFO: test score: 0.9249
+[2023-30-03 12:37:12] - INFO: ******* path: outputs/unity/resnet34_0305//baseline_minus15_decay0.000000095_weighted_loss_sliding_windows/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 12:37:23] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 12:37:25] - INFO: Backbone sparsity: 3.82
+[2023-30-03 12:37:25] - INFO: segment_semantic sparsity: 3.6
+[2023-30-03 12:37:25] - INFO: normal sparsity: 57.97
+[2023-30-03 12:37:25] - INFO: depth sparsity: 1.83
+[2023-30-03 12:37:25] - INFO: overall_sparsity: 17.04
+[2023-30-03 12:37:25] - INFO: ======================================================================
+[2023-30-03 12:38:26] - INFO: [Iter 19599 Task segm] Val Loss: 1.6858
+[2023-30-03 12:38:26] - INFO: {'mIoU': 0.2614, 'Pixel Acc': 0.5794}
+[2023-30-03 12:38:27] - INFO: [Iter 19599 Task norm] Val Loss: 0.0680
+[2023-30-03 12:38:27] - INFO: {'Angle Mean': 17.4177, 'Angle Median': 14.476, 'Angle 11.25': 39.1583, 'Angle 22.5': 70.899, 'Angle 30': 83.2464}
+[2023-30-03 12:38:28] - INFO: [Iter 19599 Task dept] Val Loss: 0.5446
+[2023-30-03 12:38:28] - INFO: {'abs_err': 0.5464, 'rel_err': 0.2241, 'sigma_1.25': 64.3905, 'sigma_1.25^2': 89.7955, 'sigma_1.25^3': 97.5368}
+[2023-30-03 12:38:28] - INFO: ======================================================================
+[2023-30-03 12:38:28] - INFO: test score: 1.0168
+[2023-30-03 12:38:45] - INFO: ******* path: outputs/unity/resnet34_0305//baseline_minus15_decay0.00000048_weighted_loss_sliding_windows/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 12:39:13] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 12:39:15] - INFO: Backbone sparsity: 12.36
+[2023-30-03 12:39:15] - INFO: segment_semantic sparsity: 18.73
+[2023-30-03 12:39:15] - INFO: normal sparsity: 80.64
+[2023-30-03 12:39:15] - INFO: depth sparsity: 12.39
+[2023-30-03 12:39:15] - INFO: overall_sparsity: 31.38
+[2023-30-03 12:39:15] - INFO: ======================================================================
+[2023-30-03 12:40:22] - INFO: [Iter 15799 Task segm] Val Loss: 3.5865
+[2023-30-03 12:40:22] - INFO: {'mIoU': 0.2364, 'Pixel Acc': 0.5604}
+[2023-30-03 12:40:23] - INFO: [Iter 15799 Task norm] Val Loss: 0.0687
+[2023-30-03 12:40:23] - INFO: {'Angle Mean': 17.5289, 'Angle Median': 14.6469, 'Angle 11.25': 38.7675, 'Angle 22.5': 70.3305, 'Angle 30': 83.0873}
+[2023-30-03 12:40:25] - INFO: [Iter 15799 Task dept] Val Loss: 0.5974
+[2023-30-03 12:40:25] - INFO: {'abs_err': 0.5986, 'rel_err': 0.245, 'sigma_1.25': 62.227, 'sigma_1.25^2': 88.6515, 'sigma_1.25^3': 96.8636}
+[2023-30-03 12:40:25] - INFO: ======================================================================
+[2023-30-03 12:40:25] - INFO: test score: 0.9006
+[2023-30-03 12:40:42] - INFO: ******* path: outputs/unity/resnet34_0305//baseline_minus15_decay0.000005_weighted_loss_sliding_windows/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 12:40:53] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 12:40:55] - INFO: Backbone sparsity: 33.27
+[2023-30-03 12:40:55] - INFO: segment_semantic sparsity: 69.42
+[2023-30-03 12:40:55] - INFO: normal sparsity: 97.42
+[2023-30-03 12:40:55] - INFO: depth sparsity: 69.03
+[2023-30-03 12:40:55] - INFO: overall_sparsity: 67.97
+[2023-30-03 12:40:55] - INFO: ======================================================================
+[2023-30-03 12:42:03] - INFO: [Iter 19399 Task segm] Val Loss: 3.0580
+[2023-30-03 12:42:03] - INFO: {'mIoU': 0.2399, 'Pixel Acc': 0.564}
+[2023-30-03 12:42:07] - INFO: [Iter 19399 Task norm] Val Loss: 0.0681
+[2023-30-03 12:42:07] - INFO: {'Angle Mean': 17.4886, 'Angle Median': 14.6486, 'Angle 11.25': 38.2733, 'Angle 22.5': 71.1334, 'Angle 30': 83.3698}
+[2023-30-03 12:42:13] - INFO: [Iter 19399 Task dept] Val Loss: 0.6019
+[2023-30-03 12:42:13] - INFO: {'abs_err': 0.6019, 'rel_err': 0.2421, 'sigma_1.25': 64.467, 'sigma_1.25^2': 89.5505, 'sigma_1.25^3': 97.213}
+[2023-30-03 12:42:13] - INFO: ======================================================================
+[2023-30-03 12:42:13] - INFO: test score: 0.9236
+[2023-30-03 12:42:32] - INFO: ******* path: outputs/unity/resnet34_0305//baseline_minus15_decay0.0000095_weighted_loss_sliding_windows/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 12:43:11] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 12:43:13] - INFO: Backbone sparsity: 38.81
+[2023-30-03 12:43:13] - INFO: segment_semantic sparsity: 76.94
+[2023-30-03 12:43:13] - INFO: normal sparsity: 98.62
+[2023-30-03 12:43:13] - INFO: depth sparsity: 78.31
+[2023-30-03 12:43:13] - INFO: overall_sparsity: 73.86
+[2023-30-03 12:43:13] - INFO: ======================================================================
+[2023-30-03 12:44:17] - INFO: [Iter 18199 Task segm] Val Loss: 1.7288
+[2023-30-03 12:44:17] - INFO: {'mIoU': 0.2502, 'Pixel Acc': 0.5718}
+[2023-30-03 12:44:18] - INFO: [Iter 18199 Task norm] Val Loss: 0.0639
+[2023-30-03 12:44:18] - INFO: {'Angle Mean': 17.0433, 'Angle Median': 14.4717, 'Angle 11.25': 38.2475, 'Angle 22.5': 72.7703, 'Angle 30': 85.0232}
+[2023-30-03 12:44:19] - INFO: [Iter 18199 Task dept] Val Loss: 0.5561
+[2023-30-03 12:44:19] - INFO: {'abs_err': 0.5568, 'rel_err': 0.225, 'sigma_1.25': 64.4988, 'sigma_1.25^2': 89.2084, 'sigma_1.25^3': 97.2319}
+[2023-30-03 12:44:19] - INFO: ======================================================================
+[2023-30-03 12:44:19] - INFO: test score: 1.0115
+[2023-30-03 12:44:36] - INFO: ******* path: outputs/unity/resnet34_0305//baseline_minus15_decay0.000011_weighted_loss_sliding_windows/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 12:44:44] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 12:44:45] - INFO: Backbone sparsity: 28.45
+[2023-30-03 12:44:45] - INFO: segment_semantic sparsity: 73.57
+[2023-30-03 12:44:45] - INFO: normal sparsity: 96.66
+[2023-30-03 12:44:45] - INFO: depth sparsity: 60.51
+[2023-30-03 12:44:45] - INFO: overall_sparsity: 65.54
+[2023-30-03 12:44:45] - INFO: ======================================================================
+[2023-30-03 12:45:53] - INFO: [Iter 9399 Task segm] Val Loss: 1.5802
+[2023-30-03 12:45:53] - INFO: {'mIoU': 0.2322, 'Pixel Acc': 0.5563}
+[2023-30-03 12:45:54] - INFO: [Iter 9399 Task norm] Val Loss: 0.0625
+[2023-30-03 12:45:54] - INFO: {'Angle Mean': 17.1677, 'Angle Median': 14.785, 'Angle 11.25': 35.5569, 'Angle 22.5': 74.1713, 'Angle 30': 86.1351}
+[2023-30-03 12:45:56] - INFO: [Iter 9399 Task dept] Val Loss: 0.5719
+[2023-30-03 12:45:56] - INFO: {'abs_err': 0.5731, 'rel_err': 0.2341, 'sigma_1.25': 62.8177, 'sigma_1.25^2': 88.6686, 'sigma_1.25^3': 96.8142}
+[2023-30-03 12:45:56] - INFO: ======================================================================
+[2023-30-03 12:45:56] - INFO: test score: 0.936
+[2023-30-03 12:46:11] - INFO: ******* path: outputs/unity/resnet34_0305//baseline_minus15_decay0.00006_weighted_loss_sliding_windows/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 12:46:28] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 12:46:29] - INFO: Backbone sparsity: 76.45
+[2023-30-03 12:46:29] - INFO: segment_semantic sparsity: 93.45
+[2023-30-03 12:46:29] - INFO: normal sparsity: 99.78
+[2023-30-03 12:46:29] - INFO: depth sparsity: 95.98
+[2023-30-03 12:46:29] - INFO: overall_sparsity: 91.72
+[2023-30-03 12:46:29] - INFO: ======================================================================
+[2023-30-03 12:47:30] - INFO: [Iter 18799 Task segm] Val Loss: 1.6457
+[2023-30-03 12:47:30] - INFO: {'mIoU': 0.2576, 'Pixel Acc': 0.5752}
+[2023-30-03 12:47:31] - INFO: [Iter 18799 Task norm] Val Loss: 0.0623
+[2023-30-03 12:47:31] - INFO: {'Angle Mean': 17.2963, 'Angle Median': 15.8749, 'Angle 11.25': 33.2713, 'Angle 22.5': 71.5055, 'Angle 30': 86.473}
+[2023-30-03 12:47:32] - INFO: [Iter 18799 Task dept] Val Loss: 0.5721
+[2023-30-03 12:47:32] - INFO: {'abs_err': 0.5727, 'rel_err': 0.2282, 'sigma_1.25': 62.3697, 'sigma_1.25^2': 88.7332, 'sigma_1.25^3': 97.1512}
+[2023-30-03 12:47:32] - INFO: ======================================================================
+[2023-30-03 12:47:32] - INFO: test score: 0.908
+[2023-30-03 12:47:48] - INFO: ******* path: outputs/unity/resnet34_0302//baseline_minus15_decay0.0.0000001_weighted_loss_sliding_windows/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 12:47:57] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 12:47:59] - INFO: Backbone sparsity: 2.94
+[2023-30-03 12:47:59] - INFO: segment_semantic sparsity: 5.37
+[2023-30-03 12:47:59] - INFO: normal sparsity: 67.34
+[2023-30-03 12:47:59] - INFO: depth sparsity: 3.25
+[2023-30-03 12:47:59] - INFO: overall_sparsity: 20.04
+[2023-30-03 12:47:59] - INFO: ======================================================================
+[2023-30-03 12:48:58] - INFO: [Iter 25199 Task segm] Val Loss: 1.6829
+[2023-30-03 12:48:58] - INFO: {'mIoU': 0.2266, 'Pixel Acc': 0.5507}
+[2023-30-03 12:48:59] - INFO: [Iter 25199 Task norm] Val Loss: 0.0665
+[2023-30-03 12:48:59] - INFO: {'Angle Mean': 17.4206, 'Angle Median': 14.8779, 'Angle 11.25': 37.2344, 'Angle 22.5': 71.1556, 'Angle 30': 84.0836}
+[2023-30-03 12:49:00] - INFO: [Iter 25199 Task dept] Val Loss: 0.5730
+[2023-30-03 12:49:00] - INFO: {'abs_err': 0.5738, 'rel_err': 0.2398, 'sigma_1.25': 62.2358, 'sigma_1.25^2': 88.3541, 'sigma_1.25^3': 96.8165}
+[2023-30-03 12:49:00] - INFO: ======================================================================
+[2023-30-03 12:49:00] - INFO: test score: 0.9037
+[2023-30-03 12:49:17] - INFO: ******* path: outputs/unity/resnet34_0302//baseline_minus15_decay0.0.0000005_weighted_loss_sliding_windows/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 12:49:25] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 12:49:27] - INFO: Backbone sparsity: 17.47
+[2023-30-03 12:49:27] - INFO: segment_semantic sparsity: 32.9
+[2023-30-03 12:49:27] - INFO: normal sparsity: 91.38
+[2023-30-03 12:49:27] - INFO: depth sparsity: 31.14
+[2023-30-03 12:49:27] - INFO: overall_sparsity: 43.72
+[2023-30-03 12:49:27] - INFO: ======================================================================
+[2023-30-03 12:50:31] - INFO: [Iter 59399 Task segm] Val Loss: 1.7685
+[2023-30-03 12:50:31] - INFO: {'mIoU': 0.2202, 'Pixel Acc': 0.5388}
+[2023-30-03 12:50:33] - INFO: [Iter 59399 Task norm] Val Loss: 0.0664
+[2023-30-03 12:50:33] - INFO: {'Angle Mean': 17.3581, 'Angle Median': 14.7628, 'Angle 11.25': 37.5328, 'Angle 22.5': 71.4307, 'Angle 30': 84.2402}
+[2023-30-03 12:50:37] - INFO: [Iter 59399 Task dept] Val Loss: 0.5824
+[2023-30-03 12:50:37] - INFO: {'abs_err': 0.5833, 'rel_err': 0.2459, 'sigma_1.25': 61.3066, 'sigma_1.25^2': 88.0397, 'sigma_1.25^3': 96.5901}
+[2023-30-03 12:50:37] - INFO: ======================================================================
+[2023-30-03 12:50:37] - INFO: test score: 0.8825
+[2023-30-03 12:50:53] - INFO: ******* path: outputs/unity/resnet34_0302//baseline_minus15_decay0.0.000001_weighted_loss_sliding_windows/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 12:51:01] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 12:51:02] - INFO: Backbone sparsity: 20.94
+[2023-30-03 12:51:02] - INFO: segment_semantic sparsity: 26.07
+[2023-30-03 12:51:02] - INFO: normal sparsity: 88.65
+[2023-30-03 12:51:02] - INFO: depth sparsity: 18.08
+[2023-30-03 12:51:02] - INFO: overall_sparsity: 38.76
+[2023-30-03 12:51:02] - INFO: ======================================================================
+[2023-30-03 12:52:08] - INFO: [Iter 13999 Task segm] Val Loss: 1.6967
+[2023-30-03 12:52:08] - INFO: {'mIoU': 0.2145, 'Pixel Acc': 0.5272}
+[2023-30-03 12:52:13] - INFO: [Iter 13999 Task norm] Val Loss: 0.0646
+[2023-30-03 12:52:13] - INFO: {'Angle Mean': 17.4866, 'Angle Median': 15.5518, 'Angle 11.25': 34.129, 'Angle 22.5': 71.7175, 'Angle 30': 85.4625}
+[2023-30-03 12:52:15] - INFO: [Iter 13999 Task dept] Val Loss: 0.5911
+[2023-30-03 12:52:15] - INFO: {'abs_err': 0.5891, 'rel_err': 0.2409, 'sigma_1.25': 61.0439, 'sigma_1.25^2': 87.6822, 'sigma_1.25^3': 96.4366}
+[2023-30-03 12:52:15] - INFO: ======================================================================
+[2023-30-03 12:52:15] - INFO: test score: 0.8314
+[2023-30-03 12:52:31] - INFO: ******* path: outputs/unity/resnet34_0302//baseline_minus15_decay0.0.000005_weighted_loss_sliding_windows/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 12:52:40] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 12:52:41] - INFO: Backbone sparsity: 36.07
+[2023-30-03 12:52:41] - INFO: segment_semantic sparsity: 69.05
+[2023-30-03 12:52:41] - INFO: normal sparsity: 99.01
+[2023-30-03 12:52:41] - INFO: depth sparsity: 72.85
+[2023-30-03 12:52:41] - INFO: overall_sparsity: 69.91
+[2023-30-03 12:52:41] - INFO: ======================================================================
+[2023-30-03 12:53:40] - INFO: [Iter 47599 Task segm] Val Loss: 20.2805
+[2023-30-03 12:53:40] - INFO: {'mIoU': 0.2197, 'Pixel Acc': 0.5434}
+[2023-30-03 12:53:42] - INFO: [Iter 47599 Task norm] Val Loss: 0.0656
+[2023-30-03 12:53:42] - INFO: {'Angle Mean': 17.6247, 'Angle Median': 15.7281, 'Angle 11.25': 33.7719, 'Angle 22.5': 70.9941, 'Angle 30': 85.084}
+[2023-30-03 12:53:43] - INFO: [Iter 47599 Task dept] Val Loss: 1.7434
+[2023-30-03 12:53:43] - INFO: {'abs_err': 1.7497, 'rel_err': 0.8401, 'sigma_1.25': 63.0785, 'sigma_1.25^2': 88.5444, 'sigma_1.25^3': 96.484}
+[2023-30-03 12:53:43] - INFO: ======================================================================
+[2023-30-03 12:53:43] - INFO: test score: -0.7868
+[2023-30-03 12:53:56] - INFO: ******* path: outputs/unity/resnet34_0302//baseline_minus15_decay0.0.00001_weighted_loss_sliding_windows/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 12:54:07] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 12:54:07] - INFO: Backbone sparsity: 47.69
+[2023-30-03 12:54:07] - INFO: segment_semantic sparsity: 78.59
+[2023-30-03 12:54:07] - INFO: normal sparsity: 99.46
+[2023-30-03 12:54:07] - INFO: depth sparsity: 84.15
+[2023-30-03 12:54:07] - INFO: overall_sparsity: 78.07
+[2023-30-03 12:54:07] - INFO: ======================================================================
+[2023-30-03 12:54:59] - INFO: [Iter 29599 Task segm] Val Loss: 1.6923
+[2023-30-03 12:54:59] - INFO: {'mIoU': 0.2217, 'Pixel Acc': 0.5504}
+[2023-30-03 12:55:00] - INFO: [Iter 29599 Task norm] Val Loss: 0.0618
+[2023-30-03 12:55:00] - INFO: {'Angle Mean': 17.1616, 'Angle Median': 15.3828, 'Angle 11.25': 33.9277, 'Angle 22.5': 73.4604, 'Angle 30': 86.5986}
+[2023-30-03 12:55:01] - INFO: [Iter 29599 Task dept] Val Loss: 0.5675
+[2023-30-03 12:55:01] - INFO: {'abs_err': 0.5667, 'rel_err': 0.2297, 'sigma_1.25': 62.9532, 'sigma_1.25^2': 88.8173, 'sigma_1.25^3': 97.1428}
+[2023-30-03 12:55:01] - INFO: ======================================================================
+[2023-30-03 12:55:01] - INFO: test score: 0.9108
+[2023-30-03 12:55:17] - INFO: ******* path: outputs/unity/resnet34_0302//baseline_minus15_decay0.0.00005_weighted_loss_sliding_windows/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 12:55:25] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 12:55:27] - INFO: Backbone sparsity: 81.09
+[2023-30-03 12:55:27] - INFO: segment_semantic sparsity: 94.66
+[2023-30-03 12:55:27] - INFO: normal sparsity: 99.87
+[2023-30-03 12:55:27] - INFO: depth sparsity: 96.96
+[2023-30-03 12:55:27] - INFO: overall_sparsity: 93.38
+[2023-30-03 12:55:27] - INFO: ======================================================================
+[2023-30-03 12:56:29] - INFO: [Iter 46399 Task segm] Val Loss: 1.5708
+[2023-30-03 12:56:29] - INFO: {'mIoU': 0.2459, 'Pixel Acc': 0.5537}
+[2023-30-03 12:56:31] - INFO: [Iter 46399 Task norm] Val Loss: 0.0607
+[2023-30-03 12:56:31] - INFO: {'Angle Mean': 17.2486, 'Angle Median': 16.1025, 'Angle 11.25': 31.2043, 'Angle 22.5': 73.6787, 'Angle 30': 87.9935}
+[2023-30-03 12:56:32] - INFO: [Iter 46399 Task dept] Val Loss: 0.5735
+[2023-30-03 12:56:32] - INFO: {'abs_err': 0.5714, 'rel_err': 0.2215, 'sigma_1.25': 62.7451, 'sigma_1.25^2': 89.1507, 'sigma_1.25^3': 97.2431}
+[2023-30-03 12:56:32] - INFO: ======================================================================
+[2023-30-03 12:56:32] - INFO: test score: 0.902

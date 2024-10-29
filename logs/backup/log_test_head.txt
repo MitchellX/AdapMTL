@@ -1,0 +1,183 @@
+python test.py --path outputs/all_shared_mobilenetv2/0928_prune_head/finetune/0.2/best_segment_semantic_normal_depth_zbuffer.model
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+******* path:  all_shared_mobilenetv2/0928_prune_head/finetune/0.2/best_segment_semantic_normal_depth_zbuffer.model
+total_conv:  2189760
+conv_nonzero:  tensor(1751729., device='cuda:0')
+======================================================================
+total_conv:  51544064
+conv_nonzero:  tensor(41233696., device='cuda:0')
+======================================================================
+total_conv:  51392512
+conv_nonzero:  tensor(41110996., device='cuda:0')
+======================================================================
+total_conv:  51384320
+conv_nonzero:  tensor(41105236., device='cuda:0')
+======================================================================
+[Iter 14999 Task segm] Val Loss: 1.6053
+{'mIoU': 0.2178, 'Pixel Acc': 0.5017}
+[Iter 14999 Task norm] Val Loss: 0.0622
+{'Angle Mean': 17.554, 'Angle Median': 15.8583, 'Angle 11.25': 32.4782, 'Angle 22.5': 71.7724, 'Angle 30': 86.3477}
+[Iter 14999 Task dept] Val Loss: 0.5586
+{'abs_err': 0.5804, 'rel_err': 0.2356, 'sigma_1.25': 61.8954, 'sigma_1.25^2': 87.9901, 'sigma_1.25^3': 96.5531}
+======================================================================
+test score:  1.0195
+python test.py --path outputs/all_shared_mobilenetv2/0928_prune_head/finetune/0.5/best_segment_semantic_normal_depth_zbuffer.model
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+******* path:  all_shared_mobilenetv2/0928_prune_head/finetune/0.5/best_segment_semantic_normal_depth_zbuffer.model
+total_conv:  2189760
+conv_nonzero:  tensor(1094829., device='cuda:0')
+======================================================================
+total_conv:  51544064
+conv_nonzero:  tensor(25768490., device='cuda:0')
+======================================================================
+total_conv:  51392512
+conv_nonzero:  tensor(25690912., device='cuda:0')
+======================================================================
+total_conv:  51384320
+conv_nonzero:  tensor(25684388., device='cuda:0')
+======================================================================
+[Iter 13999 Task segm] Val Loss: 1.6175
+{'mIoU': 0.2174, 'Pixel Acc': 0.4968}
+[Iter 13999 Task norm] Val Loss: 0.0606
+{'Angle Mean': 17.5997, 'Angle Median': 16.0461, 'Angle 11.25': 30.207, 'Angle 22.5': 73.0699, 'Angle 30': 87.0683}
+[Iter 13999 Task dept] Val Loss: 0.5712
+{'abs_err': 0.5888, 'rel_err': 0.2348, 'sigma_1.25': 61.3297, 'sigma_1.25^2': 87.4797, 'sigma_1.25^3': 96.316}
+======================================================================
+test score:  0.9867
+python test.py --path outputs/all_shared_mobilenetv2/0928_prune_head/finetune/0.7/best_segment_semantic_normal_depth_zbuffer.model
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+******* path:  all_shared_mobilenetv2/0928_prune_head/finetune/0.7/best_segment_semantic_normal_depth_zbuffer.model
+total_conv:  2189760
+conv_nonzero:  tensor(656925., device='cuda:0')
+======================================================================
+total_conv:  51544064
+conv_nonzero:  tensor(15462260., device='cuda:0')
+======================================================================
+total_conv:  51392512
+conv_nonzero:  tensor(15416200., device='cuda:0')
+======================================================================
+total_conv:  51384320
+conv_nonzero:  tensor(15413569., device='cuda:0')
+======================================================================
+[Iter 10799 Task segm] Val Loss: 1.5599
+{'mIoU': 0.2144, 'Pixel Acc': 0.5002}
+[Iter 10799 Task norm] Val Loss: 0.0634
+{'Angle Mean': 17.6167, 'Angle Median': 15.7912, 'Angle 11.25': 32.8543, 'Angle 22.5': 72.8925, 'Angle 30': 86.3312}
+[Iter 10799 Task dept] Val Loss: 0.5648
+{'abs_err': 0.5844, 'rel_err': 0.2351, 'sigma_1.25': 61.5433, 'sigma_1.25^2': 87.8566, 'sigma_1.25^3': 96.6045}
+======================================================================
+test score:  1.0227
+python test.py --path outputs/all_shared_mobilenetv2/0928_prune_head/finetune/0.8/best_segment_semantic_normal_depth_zbuffer.model
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+******* path:  all_shared_mobilenetv2/0928_prune_head/finetune/0.8/best_segment_semantic_normal_depth_zbuffer.model
+total_conv:  2189760
+conv_nonzero:  tensor(437951., device='cuda:0')
+======================================================================
+total_conv:  51544064
+conv_nonzero:  tensor(10306799., device='cuda:0')
+======================================================================
+total_conv:  51392512
+conv_nonzero:  tensor(10277523., device='cuda:0')
+======================================================================
+total_conv:  51384320
+conv_nonzero:  tensor(10274960., device='cuda:0')
+======================================================================
+[Iter 9399 Task segm] Val Loss: 1.5849
+{'mIoU': 0.2106, 'Pixel Acc': 0.498}
+[Iter 9399 Task norm] Val Loss: 0.0615
+{'Angle Mean': 17.6904, 'Angle Median': 16.3151, 'Angle 11.25': 29.3435, 'Angle 22.5': 72.9841, 'Angle 30': 87.2869}
+[Iter 9399 Task dept] Val Loss: 0.5512
+{'abs_err': 0.5742, 'rel_err': 0.2364, 'sigma_1.25': 61.9711, 'sigma_1.25^2': 87.9789, 'sigma_1.25^3': 96.595}
+======================================================================
+test score:  0.9785
+python test.py --path outputs/all_shared_mobilenetv2/0928_prune_head/finetune/0.9/best_segment_semantic_normal_depth_zbuffer.model
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+******* path:  all_shared_mobilenetv2/0928_prune_head/finetune/0.9/best_segment_semantic_normal_depth_zbuffer.model
+total_conv:  2189760
+conv_nonzero:  tensor(218975., device='cuda:0')
+======================================================================
+total_conv:  51544064
+conv_nonzero:  tensor(5153530., device='cuda:0')
+======================================================================
+total_conv:  51392512
+conv_nonzero:  tensor(5138067., device='cuda:0')
+======================================================================
+total_conv:  51384320
+conv_nonzero:  tensor(5135846., device='cuda:0')
+======================================================================
+[Iter 5799 Task segm] Val Loss: 1.6704
+{'mIoU': 0.1801, 'Pixel Acc': 0.4789}
+[Iter 5799 Task norm] Val Loss: 0.0656
+{'Angle Mean': 17.6189, 'Angle Median': 15.1618, 'Angle 11.25': 34.3472, 'Angle 22.5': 73.7408, 'Angle 30': 85.6668}
+[Iter 5799 Task dept] Val Loss: 0.6228
+{'abs_err': 0.6256, 'rel_err': 0.2378, 'sigma_1.25': 58.5324, 'sigma_1.25^2': 85.853, 'sigma_1.25^3': 95.9695}
+======================================================================
+test score:  0.9731
+python test.py --path outputs/all_shared_mobilenetv2/0928_prune_head/finetune/0.95/best_segment_semantic_normal_depth_zbuffer.model
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+******* path:  all_shared_mobilenetv2/0928_prune_head/finetune/0.95/best_segment_semantic_normal_depth_zbuffer.model
+total_conv:  2189760
+conv_nonzero:  tensor(109487., device='cuda:0')
+======================================================================
+total_conv:  51544064
+conv_nonzero:  tensor(2574871., device='cuda:0')
+======================================================================
+total_conv:  51392512
+conv_nonzero:  tensor(2568284., device='cuda:0')
+======================================================================
+total_conv:  51384320
+conv_nonzero:  tensor(2567178., device='cuda:0')
+======================================================================
+[Iter 14399 Task segm] Val Loss: 1.6214
+{'mIoU': 0.1966, 'Pixel Acc': 0.4881}
+[Iter 14399 Task norm] Val Loss: 0.0620
+{'Angle Mean': 17.8079, 'Angle Median': 16.2811, 'Angle 11.25': 29.1306, 'Angle 22.5': 73.0268, 'Angle 30': 86.963}
+[Iter 14399 Task dept] Val Loss: 0.5889
+{'abs_err': 0.6005, 'rel_err': 0.2341, 'sigma_1.25': 60.947, 'sigma_1.25^2': 87.174, 'sigma_1.25^3': 96.2972}
+======================================================================
+test score:  0.9411
+python test.py --path outputs/all_shared_mobilenetv2/0928_prune_head/finetune/0.99/best_segment_semantic_normal_depth_zbuffer.model
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+******* path:  all_shared_mobilenetv2/0928_prune_head/finetune/0.99/best_segment_semantic_normal_depth_zbuffer.model
+total_conv:  2189760
+conv_nonzero:  tensor(21897., device='cuda:0')
+======================================================================
+total_conv:  51544064
+conv_nonzero:  tensor(515417., device='cuda:0')
+======================================================================
+total_conv:  51392512
+conv_nonzero:  tensor(513903., device='cuda:0')
+======================================================================
+total_conv:  51384320
+conv_nonzero:  tensor(513814., device='cuda:0')
+======================================================================
+[Iter 10999 Task segm] Val Loss: 1.8903
+{'mIoU': 0.1272, 'Pixel Acc': 0.4318}
+[Iter 10999 Task norm] Val Loss: 0.0636
+{'Angle Mean': 17.9577, 'Angle Median': 16.681, 'Angle 11.25': 27.7716, 'Angle 22.5': 72.883, 'Angle 30': 87.0079}
+[Iter 10999 Task dept] Val Loss: 0.6502
+{'abs_err': 0.66, 'rel_err': 0.2818, 'sigma_1.25': 56.2803, 'sigma_1.25^2': 83.7625, 'sigma_1.25^3': 94.098}
+======================================================================
+test score:  0.7064
+python test.py --path outputs/all_shared_0912/finetune/0.1/best_segment_semantic_normal_depth_zbuffer.model
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+******* path:  all_shared_0912/finetune/0.1/best_segment_semantic_normal_depth_zbuffer.model
+python test.py --path outputs/all_shared_0912/finetune/0.2/best_segment_semantic_normal_depth_zbuffer.model
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+******* path:  all_shared_0912/finetune/0.2/best_segment_semantic_normal_depth_zbuffer.model
+python test.py --path outputs/all_shared_0912/finetune/0.3/best_segment_semantic_normal_depth_zbuffer.model
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]
+******* path:  all_shared_0912/finetune/0.3/best_segment_semantic_normal_depth_zbuffer.model
+python test.py --path outputs/all_shared_0912/finetune/0.4/best_segment_semantic_normal_depth_zbuffer.model
+Construct MTSeqModel from Layout:
+[[{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}], [{0, 1, 2}]]

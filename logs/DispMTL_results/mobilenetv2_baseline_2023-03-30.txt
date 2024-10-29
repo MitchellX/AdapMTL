@@ -1,0 +1,128 @@
+[2023-30-03 15:39:03] - INFO: ******* path: outputs/unity/mobilenetv2_0328//minus18_decay0.000001/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 15:39:16] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 15:39:17] - INFO: Backbone sparsity: 2.5
+[2023-30-03 15:39:17] - INFO: segment_semantic sparsity: 91.03
+[2023-30-03 15:39:17] - INFO: normal sparsity: 86.76
+[2023-30-03 15:39:17] - INFO: depth sparsity: 87.45
+[2023-30-03 15:39:17] - INFO: overall_sparsity: 87.21
+[2023-30-03 15:39:17] - INFO: ======================================================================
+[2023-30-03 15:39:37] - INFO: [Iter 17399 Task segm] Val Loss: 1.5446
+[2023-30-03 15:39:37] - INFO: {'mIoU': 0.2084, 'Pixel Acc': 0.495}
+[2023-30-03 15:39:43] - INFO: [Iter 17399 Task norm] Val Loss: 0.0641
+[2023-30-03 15:39:43] - INFO: {'Angle Mean': 17.7774, 'Angle Median': 15.575, 'Angle 11.25': 32.7383, 'Angle 22.5': 71.8168, 'Angle 30': 85.0823}
+[2023-30-03 15:39:49] - INFO: [Iter 17399 Task dept] Val Loss: 0.6775
+[2023-30-03 15:39:49] - INFO: {'abs_err': 0.6672, 'rel_err': 0.24, 'sigma_1.25': 55.2791, 'sigma_1.25^2': 85.3686, 'sigma_1.25^3': 96.0192}
+[2023-30-03 15:39:49] - INFO: ======================================================================
+[2023-30-03 15:39:49] - INFO: test score: 0.9791
+[2023-30-03 15:40:00] - INFO: ******* path: outputs/unity/mobilenetv2_0328//minus18_decay0.000003/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 15:40:13] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 15:40:14] - INFO: Backbone sparsity: 3.35
+[2023-30-03 15:40:14] - INFO: segment_semantic sparsity: 93.78
+[2023-30-03 15:40:14] - INFO: normal sparsity: 91.5
+[2023-30-03 15:40:14] - INFO: depth sparsity: 92.79
+[2023-30-03 15:40:14] - INFO: overall_sparsity: 91.44
+[2023-30-03 15:40:14] - INFO: ======================================================================
+[2023-30-03 15:40:34] - INFO: [Iter 17399 Task segm] Val Loss: 1.5305
+[2023-30-03 15:40:34] - INFO: {'mIoU': 0.2057, 'Pixel Acc': 0.4961}
+[2023-30-03 15:40:36] - INFO: [Iter 17399 Task norm] Val Loss: 0.0653
+[2023-30-03 15:40:36] - INFO: {'Angle Mean': 17.9797, 'Angle Median': 15.77, 'Angle 11.25': 32.4241, 'Angle 22.5': 71.0772, 'Angle 30': 84.3264}
+[2023-30-03 15:40:40] - INFO: [Iter 17399 Task dept] Val Loss: 0.6424
+[2023-30-03 15:40:40] - INFO: {'abs_err': 0.6421, 'rel_err': 0.2383, 'sigma_1.25': 57.5858, 'sigma_1.25^2': 86.3298, 'sigma_1.25^3': 96.0419}
+[2023-30-03 15:40:40] - INFO: ======================================================================
+[2023-30-03 15:40:40] - INFO: test score: 0.9921
+[2023-30-03 15:40:51] - INFO: ******* path: outputs/unity/mobilenetv2_0328//minus18_decay0.000005/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 15:41:08] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 15:41:09] - INFO: Backbone sparsity: 3.03
+[2023-30-03 15:41:09] - INFO: segment_semantic sparsity: 94.52
+[2023-30-03 15:41:09] - INFO: normal sparsity: 93.17
+[2023-30-03 15:41:09] - INFO: depth sparsity: 93.36
+[2023-30-03 15:41:09] - INFO: overall_sparsity: 92.42
+[2023-30-03 15:41:09] - INFO: ======================================================================
+[2023-30-03 15:41:29] - INFO: [Iter 15799 Task segm] Val Loss: 1.5201
+[2023-30-03 15:41:29] - INFO: {'mIoU': 0.2013, 'Pixel Acc': 0.4933}
+[2023-30-03 15:41:35] - INFO: [Iter 15799 Task norm] Val Loss: 0.0648
+[2023-30-03 15:41:35] - INFO: {'Angle Mean': 17.881, 'Angle Median': 15.7503, 'Angle 11.25': 32.5126, 'Angle 22.5': 71.4478, 'Angle 30': 84.7925}
+[2023-30-03 15:41:42] - INFO: [Iter 15799 Task dept] Val Loss: 0.6496
+[2023-30-03 15:41:42] - INFO: {'abs_err': 0.6462, 'rel_err': 0.2379, 'sigma_1.25': 56.7319, 'sigma_1.25^2': 85.8448, 'sigma_1.25^3': 96.2403}
+[2023-30-03 15:41:42] - INFO: ======================================================================
+[2023-30-03 15:41:42] - INFO: test score: 0.9864
+[2023-30-03 15:41:53] - INFO: ******* path: outputs/unity/mobilenetv2_0328//minus18_decay0.0000075/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 15:42:04] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 15:42:04] - INFO: Backbone sparsity: 1.45
+[2023-30-03 15:42:04] - INFO: segment_semantic sparsity: 94.22
+[2023-30-03 15:42:04] - INFO: normal sparsity: 92.17
+[2023-30-03 15:42:04] - INFO: depth sparsity: 93.45
+[2023-30-03 15:42:04] - INFO: overall_sparsity: 92.0
+[2023-30-03 15:42:04] - INFO: ======================================================================
+[2023-30-03 15:42:24] - INFO: [Iter 12799 Task segm] Val Loss: 1.5376
+[2023-30-03 15:42:24] - INFO: {'mIoU': 0.1933, 'Pixel Acc': 0.492}
+[2023-30-03 15:42:25] - INFO: [Iter 12799 Task norm] Val Loss: 0.0628
+[2023-30-03 15:42:25] - INFO: {'Angle Mean': 17.6852, 'Angle Median': 15.6477, 'Angle 11.25': 31.4456, 'Angle 22.5': 72.8619, 'Angle 30': 85.8091}
+[2023-30-03 15:42:29] - INFO: [Iter 12799 Task dept] Val Loss: 0.6513
+[2023-30-03 15:42:29] - INFO: {'abs_err': 0.6498, 'rel_err': 0.2394, 'sigma_1.25': 57.0808, 'sigma_1.25^2': 85.8388, 'sigma_1.25^3': 95.9181}
+[2023-30-03 15:42:29] - INFO: ======================================================================
+[2023-30-03 15:42:29] - INFO: test score: 0.9789
+[2023-30-03 15:42:40] - INFO: ******* path: outputs/unity/mobilenetv2_0328//minus18_decay0.00001/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 15:42:50] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 15:42:51] - INFO: Backbone sparsity: 4.74
+[2023-30-03 15:42:51] - INFO: segment_semantic sparsity: 95.61
+[2023-30-03 15:42:51] - INFO: normal sparsity: 96.46
+[2023-30-03 15:42:51] - INFO: depth sparsity: 96.67
+[2023-30-03 15:42:51] - INFO: overall_sparsity: 94.97
+[2023-30-03 15:42:51] - INFO: ======================================================================
+[2023-30-03 15:43:12] - INFO: [Iter 19199 Task segm] Val Loss: 1.5506
+[2023-30-03 15:43:12] - INFO: {'mIoU': 0.2013, 'Pixel Acc': 0.4955}
+[2023-30-03 15:43:16] - INFO: [Iter 19199 Task norm] Val Loss: 0.0647
+[2023-30-03 15:43:16] - INFO: {'Angle Mean': 17.841, 'Angle Median': 15.6639, 'Angle 11.25': 32.7141, 'Angle 22.5': 71.5017, 'Angle 30': 84.7021}
+[2023-30-03 15:43:21] - INFO: [Iter 19199 Task dept] Val Loss: 0.6510
+[2023-30-03 15:43:21] - INFO: {'abs_err': 0.648, 'rel_err': 0.2363, 'sigma_1.25': 57.1177, 'sigma_1.25^2': 85.9263, 'sigma_1.25^3': 96.2114}
+[2023-30-03 15:43:21] - INFO: ======================================================================
+[2023-30-03 15:43:21] - INFO: test score: 0.9954
+[2023-30-03 15:43:32] - INFO: ******* path: outputs/unity/mobilenetv2_0328//minus18_decay0.00003/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 15:43:44] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 15:43:45] - INFO: Backbone sparsity: 7.11
+[2023-30-03 15:43:45] - INFO: segment_semantic sparsity: 96.88
+[2023-30-03 15:43:45] - INFO: normal sparsity: 98.53
+[2023-30-03 15:43:45] - INFO: depth sparsity: 97.39
+[2023-30-03 15:43:45] - INFO: overall_sparsity: 96.33
+[2023-30-03 15:43:45] - INFO: ======================================================================
+[2023-30-03 15:44:04] - INFO: [Iter 19399 Task segm] Val Loss: 1.5391
+[2023-30-03 15:44:04] - INFO: {'mIoU': 0.1966, 'Pixel Acc': 0.4942}
+[2023-30-03 15:44:05] - INFO: [Iter 19399 Task norm] Val Loss: 0.0631
+[2023-30-03 15:44:05] - INFO: {'Angle Mean': 17.7699, 'Angle Median': 15.8371, 'Angle 11.25': 31.8516, 'Angle 22.5': 71.9225, 'Angle 30': 85.4012}
+[2023-30-03 15:44:09] - INFO: [Iter 19399 Task dept] Val Loss: 0.6444
+[2023-30-03 15:44:09] - INFO: {'abs_err': 0.6449, 'rel_err': 0.2374, 'sigma_1.25': 57.3779, 'sigma_1.25^2': 85.9793, 'sigma_1.25^3': 96.1639}
+[2023-30-03 15:44:09] - INFO: ======================================================================
+[2023-30-03 15:44:09] - INFO: test score: 0.9847
+[2023-30-03 15:44:20] - INFO: ******* path: outputs/unity/mobilenetv2_0328//minus18_decay0.00005/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 15:44:33] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 15:44:34] - INFO: Backbone sparsity: 5.7
+[2023-30-03 15:44:34] - INFO: segment_semantic sparsity: 97.41
+[2023-30-03 15:44:34] - INFO: normal sparsity: 98.59
+[2023-30-03 15:44:34] - INFO: depth sparsity: 97.16
+[2023-30-03 15:44:34] - INFO: overall_sparsity: 96.43
+[2023-30-03 15:44:34] - INFO: ======================================================================
+[2023-30-03 15:44:54] - INFO: [Iter 13399 Task segm] Val Loss: 1.5725
+[2023-30-03 15:44:54] - INFO: {'mIoU': 0.1887, 'Pixel Acc': 0.4825}
+[2023-30-03 15:44:54] - INFO: [Iter 13399 Task norm] Val Loss: 0.0624
+[2023-30-03 15:44:54] - INFO: {'Angle Mean': 17.7019, 'Angle Median': 16.0226, 'Angle 11.25': 30.5021, 'Angle 22.5': 72.7806, 'Angle 30': 86.5177}
+[2023-30-03 15:45:00] - INFO: [Iter 13399 Task dept] Val Loss: 0.6394
+[2023-30-03 15:45:00] - INFO: {'abs_err': 0.6391, 'rel_err': 0.2378, 'sigma_1.25': 57.7097, 'sigma_1.25^2': 86.0488, 'sigma_1.25^3': 96.1803}
+[2023-30-03 15:45:00] - INFO: ======================================================================
+[2023-30-03 15:45:00] - INFO: test score: 0.9683
+[2023-30-03 15:45:10] - INFO: ******* path: outputs/unity/mobilenetv2_0328//minus18_decay0.000075/best_segment_semantic_normal_depth_zbuffer.model
+[2023-30-03 15:45:28] - INFO: {'segment_semantic': 1, 'normal': 1, 'depth_zbuffer': 1}
+[2023-30-03 15:45:28] - INFO: Backbone sparsity: 12.58
+[2023-30-03 15:45:28] - INFO: segment_semantic sparsity: 97.48
+[2023-30-03 15:45:28] - INFO: normal sparsity: 99.11
+[2023-30-03 15:45:28] - INFO: depth sparsity: 98.31
+[2023-30-03 15:45:28] - INFO: overall_sparsity: 97.1
+[2023-30-03 15:45:28] - INFO: ======================================================================
+[2023-30-03 15:45:49] - INFO: [Iter 14599 Task segm] Val Loss: 1.5208
+[2023-30-03 15:45:49] - INFO: {'mIoU': 0.2024, 'Pixel Acc': 0.4935}
+[2023-30-03 15:45:51] - INFO: [Iter 14599 Task norm] Val Loss: 0.0612
+[2023-30-03 15:45:51] - INFO: {'Angle Mean': 17.721, 'Angle Median': 16.1097, 'Angle 11.25': 29.2655, 'Angle 22.5': 73.4593, 'Angle 30': 86.7875}
+[2023-30-03 15:45:57] - INFO: [Iter 14599 Task dept] Val Loss: 0.6181
+[2023-30-03 15:45:57] - INFO: {'abs_err': 0.6231, 'rel_err': 0.2353, 'sigma_1.25': 58.9734, 'sigma_1.25^2': 86.6155, 'sigma_1.25^3': 96.3028}
+[2023-30-03 15:45:57] - INFO: ======================================================================
+[2023-30-03 15:45:57] - INFO: test score: 0.9938
