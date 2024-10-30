@@ -1,7 +1,7 @@
 things_dont_upload/*
 outputs/*
 __pycache__/*
-
+.vscode/*
 
 
 multimodel-pruning/model_finetune2/*
