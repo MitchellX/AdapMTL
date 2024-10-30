@@ -122,9 +122,15 @@ For sparsity, you can view both the total sparsity and component-wise sparsity. 
 Additionally, you can see the threshold for each convolutional layer.
 ![](pictures/tensorboard_thres.png)
 
+# Comparison
 
+For detailed information on state-of-the-art (SOTA) comparison results and model implementations, please refer to the **SOTA_methods** directory.
 
+# Acknowledgments
 
+This framework builds upon `TreeMTL`. Special thanks to Lijun Zhang for their support:
+
+[https://github.com/zhanglijun95/TreeMTL](https://github.com/zhanglijun95/TreeMTL)
 
 # Citation
 If you use our dataset or methods, please cite our work:

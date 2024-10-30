@@ -1,0 +1,5 @@
+We implement LTH and IMP by ourselves.
+We adopt the official implementation for SNIP and Disparse.
+
+
+We compare our work with LTH , IMP , SNIP , and DiSparse . For LTH, we first train a dense model and subsequently prune it until the desired sparsity level is reached, yielding the winning tickets (sparse network structure). We then reset the model to its initial weights to start the sparse training process. For IMP, we iteratively remove the least important weights, determined by their magnitudes. For SNIP and IMP, we directly use the official implementation provided by the authors from GitHub. For DiSparse, the latest multitask pruning work and first-of-its-kind, we utilize the official PyTorch implementation and configure the method to use the DiSparse dynamic mechanism, which is claimed as the best-performing approach in the paper. We also train a fully dense multitask model as our baseline, which will be used to calculate a single relative performance metric.
