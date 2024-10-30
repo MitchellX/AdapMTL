@@ -1,7 +1,6 @@
 # AdapMTL: Adaptive Pruning Framework for Multitask Learning Models
 
-<img src="pictures/figure1.png" width="400"/>
-
+![](pictures/figure1.png)
 
 AdapMTL is an adaptive pruning framework tailored for multitask learning (MTL) models. Model compression in MTL introduces unique challenges due to the need for balanced sparsity allocation and accuracy across multiple tasks. AdapMTL addresses these challenges by applying independently learnable soft thresholds to the shared backbone and task-specific heads, capturing sensitivity nuances within each component.
 
