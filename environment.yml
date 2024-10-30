@@ -159,7 +159,7 @@ dependencies:
     - llvmlite==0.36.0
     - markdown==3.3.3
     - matplotlib==3.3.2
-    - netron==6.0.0
+    # - netron==6.0.0
     - networkx==2.5
     - numba==0.53.1
     - numpy==1.19.5
@@ -184,7 +184,8 @@ dependencies:
     - sklearn==0.0
     - slugify==0.0.1
     - stochastic==0.6.0
-    - tensorboard==2.4.0
+    - tensorboard==2.4.1
+    - torch-tb-profiler==0.4.3
     - tensorboard-plugin-wit==1.7.0
     - tensorboardx==2.2
     - text-unidecode==1.3

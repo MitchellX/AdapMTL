@@ -1,9 +1,0 @@
-weight_decay,iters,backbone,segment_semantic,normal,depth,overall_sparsity,test_score
-/mobilenetv2_0328//minus18_decay0.000001/best_segment_semantic_normal_depth_zbuffer.model,17399,2.5,91.03,86.76,87.45,87.21,0.9791
-/mobilenetv2_0328//minus18_decay0.000003/best_segment_semantic_normal_depth_zbuffer.model,17399,3.35,93.78,91.5,92.79,91.44,0.9921
-/mobilenetv2_0328//minus18_decay0.000005/best_segment_semantic_normal_depth_zbuffer.model,15799,3.03,94.52,93.17,93.36,92.42,0.9864
-/mobilenetv2_0328//minus18_decay0.0000075/best_segment_semantic_normal_depth_zbuffer.model,12799,1.45,94.22,92.17,93.45,92.0,0.9789
-/mobilenetv2_0328//minus18_decay0.00001/best_segment_semantic_normal_depth_zbuffer.model,19199,4.74,95.61,96.46,96.67,94.97,0.9954
-/mobilenetv2_0328//minus18_decay0.00003/best_segment_semantic_normal_depth_zbuffer.model,19399,7.11,96.88,98.53,97.39,96.33,0.9847
-/mobilenetv2_0328//minus18_decay0.00005/best_segment_semantic_normal_depth_zbuffer.model,13399,5.7,97.41,98.59,97.16,96.43,0.9683
-/mobilenetv2_0328//minus18_decay0.000075/best_segment_semantic_normal_depth_zbuffer.model,14599,12.58,97.48,99.11,98.31,97.1,0.9938
