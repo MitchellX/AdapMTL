@@ -1,5 +1,6 @@
 things_dont_upload/*
 outputs/*
+__pycache__/*
 
 
 
